@@ -1,0 +1,29 @@
+[0.671s] Invoking command in '/home/dev_ws/src/adafruit_drivers': PYTHONPATH=/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/adafruit_drivers build --build-base /home/dev_ws/build/adafruit_drivers/build install --prefix /home/dev_ws/install/adafruit_drivers --record /home/dev_ws/build/adafruit_drivers/install.log --single-version-externally-managed
+[1.035s] running egg_info
+[1.038s] writing ../../build/adafruit_drivers/adafruit_drivers.egg-info/PKG-INFO
+[1.039s] writing dependency_links to ../../build/adafruit_drivers/adafruit_drivers.egg-info/dependency_links.txt
+[1.039s] writing entry points to ../../build/adafruit_drivers/adafruit_drivers.egg-info/entry_points.txt
+[1.040s] writing requirements to ../../build/adafruit_drivers/adafruit_drivers.egg-info/requires.txt
+[1.040s] writing top-level names to ../../build/adafruit_drivers/adafruit_drivers.egg-info/top_level.txt
+[1.099s] reading manifest file '../../build/adafruit_drivers/adafruit_drivers.egg-info/SOURCES.txt'
+[1.101s] writing manifest file '../../build/adafruit_drivers/adafruit_drivers.egg-info/SOURCES.txt'
+[1.101s] running build
+[1.101s] running build_py
+[1.102s] copying adafruit_drivers/PCA9685.py -> /home/dev_ws/build/adafruit_drivers/build/lib/adafruit_drivers
+[1.102s] copying adafruit_drivers/PWMSteering.py -> /home/dev_ws/build/adafruit_drivers/build/lib/adafruit_drivers
+[1.102s] copying adafruit_drivers/PWMThrottle.py -> /home/dev_ws/build/adafruit_drivers/build/lib/adafruit_drivers
+[1.103s] running install
+[1.104s] running install_lib
+[1.106s] copying /home/dev_ws/build/adafruit_drivers/build/lib/adafruit_drivers/PCA9685.py -> /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers
+[1.106s] copying /home/dev_ws/build/adafruit_drivers/build/lib/adafruit_drivers/PWMSteering.py -> /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers
+[1.107s] copying /home/dev_ws/build/adafruit_drivers/build/lib/adafruit_drivers/PWMThrottle.py -> /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers
+[1.108s] byte-compiling /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers/PCA9685.py to PCA9685.cpython-38.pyc
+[1.110s] byte-compiling /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers/PWMSteering.py to PWMSteering.cpython-38.pyc
+[1.111s] byte-compiling /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers/PWMThrottle.py to PWMThrottle.cpython-38.pyc
+[1.112s] running install_data
+[1.113s] running install_egg_info
+[1.115s] removing '/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers-0.0.0-py3.8.egg-info' (and everything under it)
+[1.115s] Copying ../../build/adafruit_drivers/adafruit_drivers.egg-info to /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers-0.0.0-py3.8.egg-info
+[1.117s] running install_scripts
+[1.145s] writing list of installed files to '/home/dev_ws/build/adafruit_drivers/install.log'
+[1.182s] Invoked command in '/home/dev_ws/src/adafruit_drivers' returned '0': PYTHONPATH=/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/adafruit_drivers build --build-base /home/dev_ws/build/adafruit_drivers/build install --prefix /home/dev_ws/install/adafruit_drivers --record /home/dev_ws/build/adafruit_drivers/install.log --single-version-externally-managed

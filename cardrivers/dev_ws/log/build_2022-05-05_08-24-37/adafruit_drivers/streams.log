@@ -1,0 +1,23 @@
+[0.716s] Invoking command in '/home/dev_ws/src/adafruit_drivers': PYTHONPATH=/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/adafruit_drivers build --build-base /home/dev_ws/build/adafruit_drivers/build install --prefix /home/dev_ws/install/adafruit_drivers --record /home/dev_ws/build/adafruit_drivers/install.log --single-version-externally-managed
+[1.086s] running egg_info
+[1.087s] writing ../../build/adafruit_drivers/adafruit_drivers.egg-info/PKG-INFO
+[1.087s] writing dependency_links to ../../build/adafruit_drivers/adafruit_drivers.egg-info/dependency_links.txt
+[1.088s] writing entry points to ../../build/adafruit_drivers/adafruit_drivers.egg-info/entry_points.txt
+[1.088s] writing requirements to ../../build/adafruit_drivers/adafruit_drivers.egg-info/requires.txt
+[1.088s] writing top-level names to ../../build/adafruit_drivers/adafruit_drivers.egg-info/top_level.txt
+[1.165s] reading manifest file '../../build/adafruit_drivers/adafruit_drivers.egg-info/SOURCES.txt'
+[1.166s] writing manifest file '../../build/adafruit_drivers/adafruit_drivers.egg-info/SOURCES.txt'
+[1.167s] running build
+[1.167s] running build_py
+[1.167s] copying adafruit_drivers/__init__.py -> /home/dev_ws/build/adafruit_drivers/build/lib/adafruit_drivers
+[1.168s] running install
+[1.169s] running install_lib
+[1.172s] copying /home/dev_ws/build/adafruit_drivers/build/lib/adafruit_drivers/__init__.py -> /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers
+[1.173s] byte-compiling /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers/__init__.py to __init__.cpython-38.pyc
+[1.175s] running install_data
+[1.176s] running install_egg_info
+[1.179s] removing '/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers-0.0.0-py3.8.egg-info' (and everything under it)
+[1.180s] Copying ../../build/adafruit_drivers/adafruit_drivers.egg-info to /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers-0.0.0-py3.8.egg-info
+[1.181s] running install_scripts
+[1.212s] writing list of installed files to '/home/dev_ws/build/adafruit_drivers/install.log'
+[1.254s] Invoked command in '/home/dev_ws/src/adafruit_drivers' returned '0': PYTHONPATH=/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/adafruit_drivers build --build-base /home/dev_ws/build/adafruit_drivers/build install --prefix /home/dev_ws/install/adafruit_drivers --record /home/dev_ws/build/adafruit_drivers/install.log --single-version-externally-managed

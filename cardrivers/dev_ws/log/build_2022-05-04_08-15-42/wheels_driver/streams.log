@@ -1,0 +1,21 @@
+[0.579s] Invoking command in '/home/dev_ws/src/wheels_driver': PYTHONPATH=/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wheels_driver build --build-base /home/dev_ws/build/wheels_driver/build install --prefix /home/dev_ws/install/wheels_driver --record /home/dev_ws/build/wheels_driver/install.log --single-version-externally-managed
+[0.843s] running egg_info
+[0.844s] writing ../../build/wheels_driver/wheels_driver.egg-info/PKG-INFO
+[0.844s] writing dependency_links to ../../build/wheels_driver/wheels_driver.egg-info/dependency_links.txt
+[0.845s] writing entry points to ../../build/wheels_driver/wheels_driver.egg-info/entry_points.txt
+[0.845s] writing requirements to ../../build/wheels_driver/wheels_driver.egg-info/requires.txt
+[0.845s] writing top-level names to ../../build/wheels_driver/wheels_driver.egg-info/top_level.txt
+[0.894s] reading manifest file '../../build/wheels_driver/wheels_driver.egg-info/SOURCES.txt'
+[0.895s] writing manifest file '../../build/wheels_driver/wheels_driver.egg-info/SOURCES.txt'
+[0.895s] running build
+[0.897s] running build_py
+[0.903s] running install
+[0.903s] running install_lib
+[0.903s] running install_data
+[0.904s] running install_egg_info
+[0.904s] removing '/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver-0.0.0-py3.8.egg-info' (and everything under it)
+[0.904s] Copying ../../build/wheels_driver/wheels_driver.egg-info to /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver-0.0.0-py3.8.egg-info
+[0.904s] running install_scripts
+[0.923s] Installing wheels_driver script to /home/dev_ws/install/wheels_driver/lib/wheels_driver
+[0.923s] writing list of installed files to '/home/dev_ws/build/wheels_driver/install.log'
+[0.955s] Invoked command in '/home/dev_ws/src/wheels_driver' returned '0': PYTHONPATH=/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wheels_driver build --build-base /home/dev_ws/build/wheels_driver/build install --prefix /home/dev_ws/install/wheels_driver --record /home/dev_ws/build/wheels_driver/install.log --single-version-externally-managed

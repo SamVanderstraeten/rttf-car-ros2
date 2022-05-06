@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/wheels_driver/wheels_driver.egg-info
+writing ../../build/wheels_driver/wheels_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/wheels_driver/wheels_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/wheels_driver/wheels_driver.egg-info/entry_points.txt
+writing requirements to ../../build/wheels_driver/wheels_driver.egg-info/requires.txt
+writing top-level names to ../../build/wheels_driver/wheels_driver.egg-info/top_level.txt
+writing manifest file '../../build/wheels_driver/wheels_driver.egg-info/SOURCES.txt'
+reading manifest file '../../build/wheels_driver/wheels_driver.egg-info/SOURCES.txt'
+writing manifest file '../../build/wheels_driver/wheels_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dev_ws/build/wheels_driver/build
+creating /home/dev_ws/build/wheels_driver/build/lib
+creating /home/dev_ws/build/wheels_driver/build/lib/wheels_driver
+copying include/wheels_driver/__init__.py -> /home/dev_ws/build/wheels_driver/build/lib/wheels_driver
+copying include/wheels_driver/RcDriver.py -> /home/dev_ws/build/wheels_driver/build/lib/wheels_driver
+running install
+running install_lib
+creating /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver
+copying /home/dev_ws/build/wheels_driver/build/lib/wheels_driver/__init__.py -> /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver
+copying /home/dev_ws/build/wheels_driver/build/lib/wheels_driver/RcDriver.py -> /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver
+byte-compiling /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver/RcDriver.py to RcDriver.cpython-38.pyc
+running install_data
+creating /home/dev_ws/install/wheels_driver/share/ament_index
+creating /home/dev_ws/install/wheels_driver/share/ament_index/resource_index
+creating /home/dev_ws/install/wheels_driver/share/ament_index/resource_index/packages
+copying resource/wheels_driver -> /home/dev_ws/install/wheels_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/dev_ws/install/wheels_driver/share/wheels_driver
+running install_egg_info
+Copying ../../build/wheels_driver/wheels_driver.egg-info to /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver-0.0.0-py3.8.egg-info
+running install_scripts
+Installing wheels_driver script to /home/dev_ws/install/wheels_driver/lib/wheels_driver
+writing list of installed files to '/home/dev_ws/build/wheels_driver/install.log'

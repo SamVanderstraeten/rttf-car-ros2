@@ -1,0 +1,21 @@
+[0.887s] Invoking command in '/home/dev_ws/src/dummy_driver': PYTHONPATH=/home/dev_ws/install/dummy_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dummy_driver build --build-base /home/dev_ws/build/dummy_driver/build install --prefix /home/dev_ws/install/dummy_driver --record /home/dev_ws/build/dummy_driver/install.log --single-version-externally-managed
+[1.221s] running egg_info
+[1.222s] writing ../../build/dummy_driver/dummy_driver.egg-info/PKG-INFO
+[1.223s] writing dependency_links to ../../build/dummy_driver/dummy_driver.egg-info/dependency_links.txt
+[1.223s] writing entry points to ../../build/dummy_driver/dummy_driver.egg-info/entry_points.txt
+[1.224s] writing requirements to ../../build/dummy_driver/dummy_driver.egg-info/requires.txt
+[1.224s] writing top-level names to ../../build/dummy_driver/dummy_driver.egg-info/top_level.txt
+[1.311s] reading manifest file '../../build/dummy_driver/dummy_driver.egg-info/SOURCES.txt'
+[1.313s] writing manifest file '../../build/dummy_driver/dummy_driver.egg-info/SOURCES.txt'
+[1.314s] running build
+[1.314s] running build_py
+[1.315s] running install
+[1.317s] running install_lib
+[1.320s] running install_data
+[1.323s] running install_egg_info
+[1.324s] removing '/home/dev_ws/install/dummy_driver/lib/python3.8/site-packages/dummy_driver-0.0.0-py3.8.egg-info' (and everything under it)
+[1.324s] Copying ../../build/dummy_driver/dummy_driver.egg-info to /home/dev_ws/install/dummy_driver/lib/python3.8/site-packages/dummy_driver-0.0.0-py3.8.egg-info
+[1.333s] running install_scripts
+[1.359s] Installing reckless_driver script to /home/dev_ws/install/dummy_driver/lib/dummy_driver
+[1.359s] writing list of installed files to '/home/dev_ws/build/dummy_driver/install.log'
+[1.414s] Invoked command in '/home/dev_ws/src/dummy_driver' returned '0': PYTHONPATH=/home/dev_ws/install/dummy_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dummy_driver build --build-base /home/dev_ws/build/dummy_driver/build install --prefix /home/dev_ws/install/dummy_driver --record /home/dev_ws/build/dummy_driver/install.log --single-version-externally-managed

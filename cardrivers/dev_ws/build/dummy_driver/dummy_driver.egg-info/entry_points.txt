@@ -1,0 +1,3 @@
+[console_scripts]
+reckless_driver = dummy_driver.reckless:main
+

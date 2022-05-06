@@ -1,0 +1,3 @@
+[console_scripts]
+wheels_driver = wheels_driver.wheels_driver_node:main
+

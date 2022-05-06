@@ -1,0 +1,24 @@
+[0.244s] Invoking command in '/home/dev_ws/src/wheels_driver': AMENT_PREFIX_PATH=/home/dev_ws/install/adafruit_drivers:/home/dev_ws/install/wheels_driver:/home/dev_ws/install/car_drivers:/home/dev_ws/install/camera_driver:/opt/ros/foxy PYTHONPATH=/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages:/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages:/home/dev_ws/install/car_drivers/lib/python3.8/site-packages:/home/dev_ws/install/camera_driver/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/wheels_driver build --build-base /home/dev_ws/build/wheels_driver/build install --prefix /home/dev_ws/install/wheels_driver --record /home/dev_ws/build/wheels_driver/install.log --single-version-externally-managed
+[0.417s] running egg_info
+[0.418s] writing ../../build/wheels_driver/wheels_driver.egg-info/PKG-INFO
+[0.418s] writing dependency_links to ../../build/wheels_driver/wheels_driver.egg-info/dependency_links.txt
+[0.418s] writing entry points to ../../build/wheels_driver/wheels_driver.egg-info/entry_points.txt
+[0.418s] writing requirements to ../../build/wheels_driver/wheels_driver.egg-info/requires.txt
+[0.418s] writing top-level names to ../../build/wheels_driver/wheels_driver.egg-info/top_level.txt
+[0.456s] reading manifest file '../../build/wheels_driver/wheels_driver.egg-info/SOURCES.txt'
+[0.457s] writing manifest file '../../build/wheels_driver/wheels_driver.egg-info/SOURCES.txt'
+[0.457s] running build
+[0.457s] running build_py
+[0.457s] copying wheels_driver/wheels_driver_node.py -> /home/dev_ws/build/wheels_driver/build/lib/wheels_driver
+[0.457s] running install
+[0.458s] running install_lib
+[0.459s] copying /home/dev_ws/build/wheels_driver/build/lib/wheels_driver/wheels_driver_node.py -> /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver
+[0.460s] byte-compiling /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver/wheels_driver_node.py to wheels_driver_node.cpython-38.pyc
+[0.462s] running install_data
+[0.463s] running install_egg_info
+[0.464s] removing '/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver-0.0.0-py3.8.egg-info' (and everything under it)
+[0.464s] Copying ../../build/wheels_driver/wheels_driver.egg-info to /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver-0.0.0-py3.8.egg-info
+[0.465s] running install_scripts
+[0.483s] Installing wheels_driver script to /home/dev_ws/install/wheels_driver/lib/wheels_driver
+[0.484s] writing list of installed files to '/home/dev_ws/build/wheels_driver/install.log'
+[0.508s] Invoked command in '/home/dev_ws/src/wheels_driver' returned '0': AMENT_PREFIX_PATH=/home/dev_ws/install/adafruit_drivers:/home/dev_ws/install/wheels_driver:/home/dev_ws/install/car_drivers:/home/dev_ws/install/camera_driver:/opt/ros/foxy PYTHONPATH=/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages:/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages:/home/dev_ws/install/car_drivers/lib/python3.8/site-packages:/home/dev_ws/install/camera_driver/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/wheels_driver build --build-base /home/dev_ws/build/wheels_driver/build install --prefix /home/dev_ws/install/wheels_driver --record /home/dev_ws/build/wheels_driver/install.log --single-version-externally-managed

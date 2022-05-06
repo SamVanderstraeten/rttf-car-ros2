@@ -1,0 +1,41 @@
+[0.582s] Invoking command in '/home/dev_ws/src/camera_driver': PYTHONPATH=/home/dev_ws/install/camera_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_driver build --build-base /home/dev_ws/build/camera_driver/build install --prefix /home/dev_ws/install/camera_driver --record /home/dev_ws/build/camera_driver/install.log --single-version-externally-managed
+[0.853s] running egg_info
+[0.854s] writing ../../build/camera_driver/camera_driver.egg-info/PKG-INFO
+[0.855s] writing dependency_links to ../../build/camera_driver/camera_driver.egg-info/dependency_links.txt
+[0.855s] writing entry points to ../../build/camera_driver/camera_driver.egg-info/entry_points.txt
+[0.856s] writing requirements to ../../build/camera_driver/camera_driver.egg-info/requires.txt
+[0.856s] writing top-level names to ../../build/camera_driver/camera_driver.egg-info/top_level.txt
+[0.919s] reading manifest file '../../build/camera_driver/camera_driver.egg-info/SOURCES.txt'
+[0.920s] writing manifest file '../../build/camera_driver/camera_driver.egg-info/SOURCES.txt'
+[0.920s] running build
+[0.920s] running build_py
+[0.921s] creating /home/dev_ws/build/camera_driver/build
+[0.921s] creating /home/dev_ws/build/camera_driver/build/lib
+[0.921s] creating /home/dev_ws/build/camera_driver/build/lib/camera_driver
+[0.921s] copying camera_driver/__init__.py -> /home/dev_ws/build/camera_driver/build/lib/camera_driver
+[0.921s] copying camera_driver/camera_node.py -> /home/dev_ws/build/camera_driver/build/lib/camera_driver
+[0.922s] creating /home/dev_ws/build/camera_driver/build/lib/include
+[0.922s] copying include/__init__.py -> /home/dev_ws/build/camera_driver/build/lib/include
+[0.922s] copying include/camera_info.py -> /home/dev_ws/build/camera_driver/build/lib/include
+[0.922s] running install
+[0.923s] running install_lib
+[0.925s] creating /home/dev_ws/install/camera_driver/lib/python3.8/site-packages/include
+[0.926s] copying /home/dev_ws/build/camera_driver/build/lib/include/__init__.py -> /home/dev_ws/install/camera_driver/lib/python3.8/site-packages/include
+[0.926s] copying /home/dev_ws/build/camera_driver/build/lib/include/camera_info.py -> /home/dev_ws/install/camera_driver/lib/python3.8/site-packages/include
+[0.926s] creating /home/dev_ws/install/camera_driver/lib/python3.8/site-packages/camera_driver
+[0.926s] copying /home/dev_ws/build/camera_driver/build/lib/camera_driver/__init__.py -> /home/dev_ws/install/camera_driver/lib/python3.8/site-packages/camera_driver
+[0.926s] copying /home/dev_ws/build/camera_driver/build/lib/camera_driver/camera_node.py -> /home/dev_ws/install/camera_driver/lib/python3.8/site-packages/camera_driver
+[0.927s] byte-compiling /home/dev_ws/install/camera_driver/lib/python3.8/site-packages/include/__init__.py to __init__.cpython-38.pyc
+[0.928s] byte-compiling /home/dev_ws/install/camera_driver/lib/python3.8/site-packages/include/camera_info.py to camera_info.cpython-38.pyc
+[0.929s] byte-compiling /home/dev_ws/install/camera_driver/lib/python3.8/site-packages/camera_driver/__init__.py to __init__.cpython-38.pyc
+[0.929s] byte-compiling /home/dev_ws/install/camera_driver/lib/python3.8/site-packages/camera_driver/camera_node.py to camera_node.cpython-38.pyc
+[0.931s] running install_data
+[0.931s] creating /home/dev_ws/install/camera_driver/share/ament_index
+[0.932s] creating /home/dev_ws/install/camera_driver/share/ament_index/resource_index
+[0.932s] creating /home/dev_ws/install/camera_driver/share/ament_index/resource_index/packages
+[0.932s] copying resource/camera_driver -> /home/dev_ws/install/camera_driver/share/ament_index/resource_index/packages
+[0.932s] copying package.xml -> /home/dev_ws/install/camera_driver/share/camera_driver
+[0.932s] running install_egg_info
+[0.934s] Copying ../../build/camera_driver/camera_driver.egg-info to /home/dev_ws/install/camera_driver/lib/python3.8/site-packages/camera_driver-0.0.0-py3.8.egg-info
+[0.936s] running install_scripts
+[0.964s] writing list of installed files to '/home/dev_ws/build/camera_driver/install.log'

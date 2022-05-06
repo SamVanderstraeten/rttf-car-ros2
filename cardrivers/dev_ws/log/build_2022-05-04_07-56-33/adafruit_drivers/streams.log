@@ -1,0 +1,21 @@
+[0.589s] Invoking command in '/home/dev_ws/src/adafruit_drivers': PYTHONPATH=/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/adafruit_drivers build --build-base /home/dev_ws/build/adafruit_drivers/build install --prefix /home/dev_ws/install/adafruit_drivers --record /home/dev_ws/build/adafruit_drivers/install.log --single-version-externally-managed
+[0.862s] running egg_info
+[0.863s] writing ../../build/adafruit_drivers/adafruit_drivers.egg-info/PKG-INFO
+[0.863s] writing dependency_links to ../../build/adafruit_drivers/adafruit_drivers.egg-info/dependency_links.txt
+[0.864s] writing entry points to ../../build/adafruit_drivers/adafruit_drivers.egg-info/entry_points.txt
+[0.864s] writing requirements to ../../build/adafruit_drivers/adafruit_drivers.egg-info/requires.txt
+[0.864s] writing top-level names to ../../build/adafruit_drivers/adafruit_drivers.egg-info/top_level.txt
+[0.915s] package init file 'include/__init__.py' not found (or not a regular file)
+[0.915s] reading manifest file '../../build/adafruit_drivers/adafruit_drivers.egg-info/SOURCES.txt'
+[0.916s] writing manifest file '../../build/adafruit_drivers/adafruit_drivers.egg-info/SOURCES.txt'
+[0.916s] running build
+[0.916s] running build_py
+[0.916s] running install
+[0.917s] running install_lib
+[0.919s] running install_data
+[0.920s] running install_egg_info
+[0.921s] removing '/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers-0.0.0-py3.8.egg-info' (and everything under it)
+[0.921s] Copying ../../build/adafruit_drivers/adafruit_drivers.egg-info to /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers-0.0.0-py3.8.egg-info
+[0.922s] running install_scripts
+[0.945s] writing list of installed files to '/home/dev_ws/build/adafruit_drivers/install.log'
+[0.977s] Invoked command in '/home/dev_ws/src/adafruit_drivers' returned '0': PYTHONPATH=/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/adafruit_drivers build --build-base /home/dev_ws/build/adafruit_drivers/build install --prefix /home/dev_ws/install/adafruit_drivers --record /home/dev_ws/build/adafruit_drivers/install.log --single-version-externally-managed

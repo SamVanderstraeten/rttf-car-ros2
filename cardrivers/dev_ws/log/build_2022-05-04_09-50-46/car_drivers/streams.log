@@ -1,0 +1,20 @@
+[0.598s] Invoking command in '/home/dev_ws/src/car_drivers': PYTHONPATH=/home/dev_ws/install/car_drivers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/car_drivers build --build-base /home/dev_ws/build/car_drivers/build install --prefix /home/dev_ws/install/car_drivers --record /home/dev_ws/build/car_drivers/install.log --single-version-externally-managed
+[0.883s] running egg_info
+[0.884s] writing ../../build/car_drivers/car_drivers.egg-info/PKG-INFO
+[0.884s] writing dependency_links to ../../build/car_drivers/car_drivers.egg-info/dependency_links.txt
+[0.884s] writing entry points to ../../build/car_drivers/car_drivers.egg-info/entry_points.txt
+[0.885s] writing requirements to ../../build/car_drivers/car_drivers.egg-info/requires.txt
+[0.885s] writing top-level names to ../../build/car_drivers/car_drivers.egg-info/top_level.txt
+[0.949s] reading manifest file '../../build/car_drivers/car_drivers.egg-info/SOURCES.txt'
+[0.950s] writing manifest file '../../build/car_drivers/car_drivers.egg-info/SOURCES.txt'
+[0.950s] running build
+[0.950s] running build_py
+[0.951s] running install
+[0.952s] running install_lib
+[0.954s] running install_data
+[0.955s] running install_egg_info
+[0.957s] removing '/home/dev_ws/install/car_drivers/lib/python3.8/site-packages/car_drivers-0.0.0-py3.8.egg-info' (and everything under it)
+[0.958s] Copying ../../build/car_drivers/car_drivers.egg-info to /home/dev_ws/install/car_drivers/lib/python3.8/site-packages/car_drivers-0.0.0-py3.8.egg-info
+[0.959s] running install_scripts
+[0.986s] writing list of installed files to '/home/dev_ws/build/car_drivers/install.log'
+[1.021s] Invoked command in '/home/dev_ws/src/car_drivers' returned '0': PYTHONPATH=/home/dev_ws/install/car_drivers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/car_drivers build --build-base /home/dev_ws/build/car_drivers/build install --prefix /home/dev_ws/install/car_drivers --record /home/dev_ws/build/car_drivers/install.log --single-version-externally-managed

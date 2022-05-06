@@ -1,0 +1,20 @@
+[0.608s] Invoking command in '/home/dev_ws/src/adafruit_drivers': PYTHONPATH=/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/adafruit_drivers build --build-base /home/dev_ws/build/adafruit_drivers/build install --prefix /home/dev_ws/install/adafruit_drivers --record /home/dev_ws/build/adafruit_drivers/install.log --single-version-externally-managed
+[0.884s] running egg_info
+[0.885s] writing ../../build/adafruit_drivers/adafruit_drivers.egg-info/PKG-INFO
+[0.885s] writing dependency_links to ../../build/adafruit_drivers/adafruit_drivers.egg-info/dependency_links.txt
+[0.885s] writing entry points to ../../build/adafruit_drivers/adafruit_drivers.egg-info/entry_points.txt
+[0.886s] writing requirements to ../../build/adafruit_drivers/adafruit_drivers.egg-info/requires.txt
+[0.886s] writing top-level names to ../../build/adafruit_drivers/adafruit_drivers.egg-info/top_level.txt
+[0.950s] reading manifest file '../../build/adafruit_drivers/adafruit_drivers.egg-info/SOURCES.txt'
+[0.952s] writing manifest file '../../build/adafruit_drivers/adafruit_drivers.egg-info/SOURCES.txt'
+[0.952s] running build
+[0.952s] running build_py
+[0.953s] running install
+[0.954s] running install_lib
+[0.957s] running install_data
+[0.958s] running install_egg_info
+[0.960s] removing '/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers-0.0.0-py3.8.egg-info' (and everything under it)
+[0.961s] Copying ../../build/adafruit_drivers/adafruit_drivers.egg-info to /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers-0.0.0-py3.8.egg-info
+[0.962s] running install_scripts
+[0.989s] writing list of installed files to '/home/dev_ws/build/adafruit_drivers/install.log'
+[1.024s] Invoked command in '/home/dev_ws/src/adafruit_drivers' returned '0': PYTHONPATH=/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/adafruit_drivers build --build-base /home/dev_ws/build/adafruit_drivers/build install --prefix /home/dev_ws/install/adafruit_drivers --record /home/dev_ws/build/adafruit_drivers/install.log --single-version-externally-managed

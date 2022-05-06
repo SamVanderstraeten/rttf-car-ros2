@@ -1,0 +1,24 @@
+[0.888s] Invoking command in '/home/dev_ws/src/dummy_driver': PYTHONPATH=/home/dev_ws/install/dummy_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dummy_driver build --build-base /home/dev_ws/build/dummy_driver/build install --prefix /home/dev_ws/install/dummy_driver --record /home/dev_ws/build/dummy_driver/install.log --single-version-externally-managed
+[1.193s] running egg_info
+[1.194s] writing ../../build/dummy_driver/dummy_driver.egg-info/PKG-INFO
+[1.195s] writing dependency_links to ../../build/dummy_driver/dummy_driver.egg-info/dependency_links.txt
+[1.195s] writing entry points to ../../build/dummy_driver/dummy_driver.egg-info/entry_points.txt
+[1.196s] writing requirements to ../../build/dummy_driver/dummy_driver.egg-info/requires.txt
+[1.197s] writing top-level names to ../../build/dummy_driver/dummy_driver.egg-info/top_level.txt
+[1.269s] reading manifest file '../../build/dummy_driver/dummy_driver.egg-info/SOURCES.txt'
+[1.271s] writing manifest file '../../build/dummy_driver/dummy_driver.egg-info/SOURCES.txt'
+[1.272s] running build
+[1.272s] running build_py
+[1.273s] copying dummy_driver/reckless.py -> /home/dev_ws/build/dummy_driver/build/lib/dummy_driver
+[1.273s] running install
+[1.276s] running install_lib
+[1.278s] copying /home/dev_ws/build/dummy_driver/build/lib/dummy_driver/reckless.py -> /home/dev_ws/install/dummy_driver/lib/python3.8/site-packages/dummy_driver
+[1.279s] byte-compiling /home/dev_ws/install/dummy_driver/lib/python3.8/site-packages/dummy_driver/reckless.py to reckless.cpython-38.pyc
+[1.281s] running install_data
+[1.282s] running install_egg_info
+[1.285s] removing '/home/dev_ws/install/dummy_driver/lib/python3.8/site-packages/dummy_driver-0.0.0-py3.8.egg-info' (and everything under it)
+[1.285s] Copying ../../build/dummy_driver/dummy_driver.egg-info to /home/dev_ws/install/dummy_driver/lib/python3.8/site-packages/dummy_driver-0.0.0-py3.8.egg-info
+[1.286s] running install_scripts
+[1.317s] Installing reckless_driver script to /home/dev_ws/install/dummy_driver/lib/dummy_driver
+[1.317s] writing list of installed files to '/home/dev_ws/build/dummy_driver/install.log'
+[1.377s] Invoked command in '/home/dev_ws/src/dummy_driver' returned '0': PYTHONPATH=/home/dev_ws/install/dummy_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dummy_driver build --build-base /home/dev_ws/build/dummy_driver/build install --prefix /home/dev_ws/install/dummy_driver --record /home/dev_ws/build/dummy_driver/install.log --single-version-externally-managed

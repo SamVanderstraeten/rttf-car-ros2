@@ -1,0 +1,34 @@
+[0.585s] Invoking command in '/home/dev_ws/src/adafruit_drivers': PYTHONPATH=/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/adafruit_drivers build --build-base /home/dev_ws/build/adafruit_drivers/build install --prefix /home/dev_ws/install/adafruit_drivers --record /home/dev_ws/build/adafruit_drivers/install.log --single-version-externally-managed
+[0.767s] running egg_info
+[0.768s] writing ../../build/adafruit_drivers/adafruit_drivers.egg-info/PKG-INFO
+[0.768s] writing dependency_links to ../../build/adafruit_drivers/adafruit_drivers.egg-info/dependency_links.txt
+[0.768s] writing entry points to ../../build/adafruit_drivers/adafruit_drivers.egg-info/entry_points.txt
+[0.768s] writing requirements to ../../build/adafruit_drivers/adafruit_drivers.egg-info/requires.txt
+[0.769s] writing top-level names to ../../build/adafruit_drivers/adafruit_drivers.egg-info/top_level.txt
+[0.833s] reading manifest file '../../build/adafruit_drivers/adafruit_drivers.egg-info/SOURCES.txt'
+[0.834s] writing manifest file '../../build/adafruit_drivers/adafruit_drivers.egg-info/SOURCES.txt'
+[0.835s] running build
+[0.835s] running build_py
+[0.835s] copying include/Adafruit_I2C/Adafruit_I2C.py -> /home/dev_ws/build/adafruit_drivers/build/lib/include/Adafruit_I2C
+[0.836s] running install
+[0.837s] running install_lib
+[0.839s] copying /home/dev_ws/build/adafruit_drivers/build/lib/include/Adafruit_I2C/Adafruit_I2C.py -> /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/include/Adafruit_I2C
+[0.842s] byte-compiling /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/include/Adafruit_I2C/Adafruit_I2C.py to Adafruit_I2C.cpython-38.pyc
+[0.843s]   File "/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/include/Adafruit_I2C/Adafruit_I2C.py", line 66
+[0.843s]     except IOError, err:
+[0.844s]                   ^
+[0.844s] SyntaxError: invalid syntax
+[0.844s] 
+[0.844s]   File "/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/include/PCA9685/PWMSteering.py", line 15
+[0.844s]     rclpy.get_logger().info('[PWM Steering] Set speed pulse to %s', pulse))
+[0.844s]                                                                           ^
+[0.845s] SyntaxError: unmatched ')'
+[0.845s] 
+[0.845s] byte-compiling /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/include/PCA9685/PWMSteering.py to PWMSteering.cpython-38.pyc
+[0.845s] running install_data
+[0.845s] running install_egg_info
+[0.847s] removing '/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers-0.0.0-py3.8.egg-info' (and everything under it)
+[0.847s] Copying ../../build/adafruit_drivers/adafruit_drivers.egg-info to /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers-0.0.0-py3.8.egg-info
+[0.849s] running install_scripts
+[0.879s] writing list of installed files to '/home/dev_ws/build/adafruit_drivers/install.log'
+[0.923s] Invoked command in '/home/dev_ws/src/adafruit_drivers' returned '0': PYTHONPATH=/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/adafruit_drivers build --build-base /home/dev_ws/build/adafruit_drivers/build install --prefix /home/dev_ws/install/adafruit_drivers --record /home/dev_ws/build/adafruit_drivers/install.log --single-version-externally-managed

@@ -1,0 +1,9 @@
+WARNING: '../adafruit_drivers/include/Adafruit_I2C' not a valid package name; please use only .-separated package names in setup.py
+WARNING: '../adafruit_drivers/include/PCA9685' not a valid package name; please use only .-separated package names in setup.py
+running egg_info
+writing ../../build/wheels_driver/wheels_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/wheels_driver/wheels_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/wheels_driver/wheels_driver.egg-info/entry_points.txt
+writing requirements to ../../build/wheels_driver/wheels_driver.egg-info/requires.txt
+writing top-level names to ../../build/wheels_driver/wheels_driver.egg-info/top_level.txt
+error: package directory '/adafruit_drivers/include/Adafruit_I2C' does not exist

@@ -1,0 +1,351 @@
+[0.000000] (-) TimerEvent: {}
+[0.000227] (adafruit_drivers) JobQueued: {'identifier': 'adafruit_drivers', 'dependencies': OrderedDict()}
+[0.000537] (camera_driver) JobQueued: {'identifier': 'camera_driver', 'dependencies': OrderedDict()}
+[0.000675] (car_drivers) JobQueued: {'identifier': 'car_drivers', 'dependencies': OrderedDict()}
+[0.001619] (rttf_car_interfaces) JobQueued: {'identifier': 'rttf_car_interfaces', 'dependencies': OrderedDict()}
+[0.002615] (wheels_driver) JobQueued: {'identifier': 'wheels_driver', 'dependencies': OrderedDict([('adafruit_drivers', '/home/dev_ws/install/adafruit_drivers')])}
+[0.002848] (adafruit_drivers) JobStarted: {'identifier': 'adafruit_drivers'}
+[0.016829] (camera_driver) JobStarted: {'identifier': 'camera_driver'}
+[0.030079] (car_drivers) JobStarted: {'identifier': 'car_drivers'}
+[0.041119] (rttf_car_interfaces) JobStarted: {'identifier': 'rttf_car_interfaces'}
+[0.099640] (-) TimerEvent: {}
+[0.200157] (-) TimerEvent: {}
+[0.300614] (-) TimerEvent: {}
+[0.401118] (-) TimerEvent: {}
+[0.501547] (-) TimerEvent: {}
+[0.602057] (-) TimerEvent: {}
+[0.688004] (rttf_car_interfaces) JobProgress: {'identifier': 'rttf_car_interfaces', 'progress': 'cmake'}
+[0.688841] (rttf_car_interfaces) JobProgress: {'identifier': 'rttf_car_interfaces', 'progress': 'build'}
+[0.689720] (rttf_car_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dev_ws/build/rttf_car_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/dev_ws/build/rttf_car_interfaces', 'env': OrderedDict([('HOSTNAME', 'ttf-cardrivers-ros2'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dev_ws/install/rttf_car_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('READTHEDOCS', 'True'), ('COLCON_PREFIX_PATH', '/home/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dev_ws/install/rttf_car_interfaces:/home/dev_ws/install/wheels_driver:/home/dev_ws/install/car_drivers:/home/dev_ws/install/camera_driver:/home/dev_ws/install/adafruit_drivers:/opt/ros/foxy'), ('PWD', '/home/dev_ws/build/rttf_car_interfaces'), ('ROS_IPV6', 'off'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages:/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages:/home/dev_ws/install/car_drivers/lib/python3.8/site-packages:/home/dev_ws/install/camera_driver/lib/python3.8/site-packages:/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/dev_ws/install/rttf_car_interfaces:/home/dev_ws/install/wheels_driver:/home/dev_ws/install/car_drivers:/home/dev_ws/install/camera_driver:/home/dev_ws/install/adafruit_drivers:/opt/ros/foxy')]), 'shell': False}
+[0.698580] (adafruit_drivers) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/adafruit_drivers', 'build', '--build-base', '/home/dev_ws/build/adafruit_drivers/build', 'install', '--prefix', '/home/dev_ws/install/adafruit_drivers', '--record', '/home/dev_ws/build/adafruit_drivers/install.log', '--single-version-externally-managed'], 'cwd': '/home/dev_ws/src/adafruit_drivers', 'env': {'HOSTNAME': 'ttf-cardrivers-ros2', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dev_ws/install/rttf_car_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/dev_ws/src', 'ROS_PYTHON_VERSION': '3', 'READTHEDOCS': 'True', 'COLCON_PREFIX_PATH': '/home/dev_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/dev_ws/install/rttf_car_interfaces:/home/dev_ws/install/wheels_driver:/home/dev_ws/install/car_drivers:/home/dev_ws/install/camera_driver:/home/dev_ws/install/adafruit_drivers:/opt/ros/foxy', 'PWD': '/home/dev_ws/build/adafruit_drivers', 'ROS_IPV6': 'off', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:/home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages:/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages:/home/dev_ws/install/car_drivers/lib/python3.8/site-packages:/home/dev_ws/install/camera_driver/lib/python3.8/site-packages:/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dev_ws/install/rttf_car_interfaces'}, 'shell': False}
+[0.702197] (-) TimerEvent: {}
+[0.704692] (camera_driver) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_driver', 'build', '--build-base', '/home/dev_ws/build/camera_driver/build', 'install', '--prefix', '/home/dev_ws/install/camera_driver', '--record', '/home/dev_ws/build/camera_driver/install.log', '--single-version-externally-managed'], 'cwd': '/home/dev_ws/src/camera_driver', 'env': {'HOSTNAME': 'ttf-cardrivers-ros2', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dev_ws/install/rttf_car_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/dev_ws/src', 'ROS_PYTHON_VERSION': '3', 'READTHEDOCS': 'True', 'COLCON_PREFIX_PATH': '/home/dev_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/dev_ws/install/rttf_car_interfaces:/home/dev_ws/install/wheels_driver:/home/dev_ws/install/car_drivers:/home/dev_ws/install/camera_driver:/home/dev_ws/install/adafruit_drivers:/opt/ros/foxy', 'PWD': '/home/dev_ws/build/camera_driver', 'ROS_IPV6': 'off', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/dev_ws/install/camera_driver/lib/python3.8/site-packages:/home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages:/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages:/home/dev_ws/install/car_drivers/lib/python3.8/site-packages:/home/dev_ws/install/camera_driver/lib/python3.8/site-packages:/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dev_ws/install/rttf_car_interfaces'}, 'shell': False}
+[0.712456] (car_drivers) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/car_drivers', 'build', '--build-base', '/home/dev_ws/build/car_drivers/build', 'install', '--prefix', '/home/dev_ws/install/car_drivers', '--record', '/home/dev_ws/build/car_drivers/install.log', '--single-version-externally-managed'], 'cwd': '/home/dev_ws/src/car_drivers', 'env': {'HOSTNAME': 'ttf-cardrivers-ros2', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dev_ws/install/rttf_car_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/dev_ws/src', 'ROS_PYTHON_VERSION': '3', 'READTHEDOCS': 'True', 'COLCON_PREFIX_PATH': '/home/dev_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/dev_ws/install/rttf_car_interfaces:/home/dev_ws/install/wheels_driver:/home/dev_ws/install/car_drivers:/home/dev_ws/install/camera_driver:/home/dev_ws/install/adafruit_drivers:/opt/ros/foxy', 'PWD': '/home/dev_ws/build/car_drivers', 'ROS_IPV6': 'off', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/dev_ws/install/car_drivers/lib/python3.8/site-packages:/home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages:/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages:/home/dev_ws/install/car_drivers/lib/python3.8/site-packages:/home/dev_ws/install/camera_driver/lib/python3.8/site-packages:/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dev_ws/install/rttf_car_interfaces'}, 'shell': False}
+[0.744665] (rttf_car_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.779904] (rttf_car_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.780191] (rttf_car_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.802298] (-) TimerEvent: {}
+[0.902762] (-) TimerEvent: {}
+[1.003157] (-) TimerEvent: {}
+[1.077255] (camera_driver) StdoutLine: {'line': b'running egg_info\n'}
+[1.078608] (camera_driver) StdoutLine: {'line': b'writing ../../build/camera_driver/camera_driver.egg-info/PKG-INFO\n'}
+[1.079244] (camera_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_driver/camera_driver.egg-info/dependency_links.txt\n'}
+[1.079774] (camera_driver) StdoutLine: {'line': b'writing entry points to ../../build/camera_driver/camera_driver.egg-info/entry_points.txt\n'}
+[1.080248] (camera_driver) StdoutLine: {'line': b'writing requirements to ../../build/camera_driver/camera_driver.egg-info/requires.txt\n'}
+[1.080647] (camera_driver) StdoutLine: {'line': b'writing top-level names to ../../build/camera_driver/camera_driver.egg-info/top_level.txt\n'}
+[1.081991] (adafruit_drivers) StdoutLine: {'line': b'running egg_info\n'}
+[1.083680] (adafruit_drivers) StdoutLine: {'line': b'writing ../../build/adafruit_drivers/adafruit_drivers.egg-info/PKG-INFO\n'}
+[1.084639] (adafruit_drivers) StdoutLine: {'line': b'writing dependency_links to ../../build/adafruit_drivers/adafruit_drivers.egg-info/dependency_links.txt\n'}
+[1.085516] (adafruit_drivers) StdoutLine: {'line': b'writing entry points to ../../build/adafruit_drivers/adafruit_drivers.egg-info/entry_points.txt\n'}
+[1.086319] (adafruit_drivers) StdoutLine: {'line': b'writing requirements to ../../build/adafruit_drivers/adafruit_drivers.egg-info/requires.txt\n'}
+[1.086703] (car_drivers) StdoutLine: {'line': b'running egg_info\n'}
+[1.087374] (adafruit_drivers) StdoutLine: {'line': b'writing top-level names to ../../build/adafruit_drivers/adafruit_drivers.egg-info/top_level.txt\n'}
+[1.088101] (car_drivers) StdoutLine: {'line': b'writing ../../build/car_drivers/car_drivers.egg-info/PKG-INFO\n'}
+[1.088609] (car_drivers) StdoutLine: {'line': b'writing dependency_links to ../../build/car_drivers/car_drivers.egg-info/dependency_links.txt\n'}
+[1.088953] (car_drivers) StdoutLine: {'line': b'writing entry points to ../../build/car_drivers/car_drivers.egg-info/entry_points.txt\n'}
+[1.089382] (car_drivers) StdoutLine: {'line': b'writing requirements to ../../build/car_drivers/car_drivers.egg-info/requires.txt\n'}
+[1.089684] (car_drivers) StdoutLine: {'line': b'writing top-level names to ../../build/car_drivers/car_drivers.egg-info/top_level.txt\n'}
+[1.099790] (rttf_car_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.103278] (-) TimerEvent: {}
+[1.107666] (rttf_car_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.117143] (rttf_car_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.164914] (camera_driver) StdoutLine: {'line': b"reading manifest file '../../build/camera_driver/camera_driver.egg-info/SOURCES.txt'\n"}
+[1.166782] (camera_driver) StdoutLine: {'line': b"writing manifest file '../../build/camera_driver/camera_driver.egg-info/SOURCES.txt'\n"}
+[1.167117] (camera_driver) StdoutLine: {'line': b'running build\n'}
+[1.167322] (camera_driver) StdoutLine: {'line': b'running build_py\n'}
+[1.168171] (camera_driver) StdoutLine: {'line': b'running install\n'}
+[1.169749] (car_drivers) StdoutLine: {'line': b"reading manifest file '../../build/car_drivers/car_drivers.egg-info/SOURCES.txt'\n"}
+[1.170098] (camera_driver) StdoutLine: {'line': b'running install_lib\n'}
+[1.171541] (car_drivers) StdoutLine: {'line': b"writing manifest file '../../build/car_drivers/car_drivers.egg-info/SOURCES.txt'\n"}
+[1.171884] (car_drivers) StdoutLine: {'line': b'running build\n'}
+[1.172088] (car_drivers) StdoutLine: {'line': b'running build_py\n'}
+[1.172316] (car_drivers) StdoutLine: {'line': b'running install\n'}
+[1.173199] (camera_driver) StdoutLine: {'line': b'running install_data\n'}
+[1.173508] (adafruit_drivers) StdoutLine: {'line': b"reading manifest file '../../build/adafruit_drivers/adafruit_drivers.egg-info/SOURCES.txt'\n"}
+[1.173794] (car_drivers) StdoutLine: {'line': b'running install_lib\n'}
+[1.174135] (camera_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.175526] (adafruit_drivers) StdoutLine: {'line': b"writing manifest file '../../build/adafruit_drivers/adafruit_drivers.egg-info/SOURCES.txt'\n"}
+[1.175858] (adafruit_drivers) StdoutLine: {'line': b'running build\n'}
+[1.176039] (adafruit_drivers) StdoutLine: {'line': b'running build_py\n'}
+[1.176338] (car_drivers) StdoutLine: {'line': b'running install_data\n'}
+[1.176715] (adafruit_drivers) StdoutLine: {'line': b'running install\n'}
+[1.177220] (car_drivers) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.177842] (camera_driver) StdoutLine: {'line': b"removing '/home/dev_ws/install/camera_driver/lib/python3.8/site-packages/camera_driver-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.178400] (adafruit_drivers) StdoutLine: {'line': b'running install_lib\n'}
+[1.178631] (camera_driver) StdoutLine: {'line': b'Copying ../../build/camera_driver/camera_driver.egg-info to /home/dev_ws/install/camera_driver/lib/python3.8/site-packages/camera_driver-0.0.0-py3.8.egg-info\n'}
+[1.180687] (car_drivers) StdoutLine: {'line': b"removing '/home/dev_ws/install/car_drivers/lib/python3.8/site-packages/car_drivers-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.181264] (car_drivers) StdoutLine: {'line': b'Copying ../../build/car_drivers/car_drivers.egg-info to /home/dev_ws/install/car_drivers/lib/python3.8/site-packages/car_drivers-0.0.0-py3.8.egg-info\n'}
+[1.181664] (camera_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[1.182675] (adafruit_drivers) StdoutLine: {'line': b'running install_data\n'}
+[1.183069] (car_drivers) StdoutLine: {'line': b'running install_scripts\n'}
+[1.183685] (adafruit_drivers) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.187105] (adafruit_drivers) StdoutLine: {'line': b"removing '/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.188200] (adafruit_drivers) StdoutLine: {'line': b'Copying ../../build/adafruit_drivers/adafruit_drivers.egg-info to /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers-0.0.0-py3.8.egg-info\n'}
+[1.190416] (adafruit_drivers) StdoutLine: {'line': b'running install_scripts\n'}
+[1.203386] (-) TimerEvent: {}
+[1.219581] (car_drivers) StdoutLine: {'line': b"writing list of installed files to '/home/dev_ws/build/car_drivers/install.log'\n"}
+[1.220279] (camera_driver) StdoutLine: {'line': b'Installing camera_driver script to /home/dev_ws/install/camera_driver/lib/camera_driver\n'}
+[1.221342] (camera_driver) StdoutLine: {'line': b"writing list of installed files to '/home/dev_ws/build/camera_driver/install.log'\n"}
+[1.231288] (adafruit_drivers) StdoutLine: {'line': b"writing list of installed files to '/home/dev_ws/build/adafruit_drivers/install.log'\n"}
+[1.263373] (car_drivers) CommandEnded: {'returncode': 0}
+[1.284584] (car_drivers) JobEnded: {'identifier': 'car_drivers', 'rc': 0}
+[1.287921] (camera_driver) CommandEnded: {'returncode': 0}
+[1.301757] (camera_driver) JobEnded: {'identifier': 'camera_driver', 'rc': 0}
+[1.303650] (-) TimerEvent: {}
+[1.303963] (adafruit_drivers) CommandEnded: {'returncode': 0}
+[1.317727] (adafruit_drivers) JobEnded: {'identifier': 'adafruit_drivers', 'rc': 0}
+[1.321642] (wheels_driver) JobStarted: {'identifier': 'wheels_driver'}
+[1.384250] (rttf_car_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.403773] (-) TimerEvent: {}
+[1.447968] (rttf_car_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.503878] (-) TimerEvent: {}
+[1.604513] (-) TimerEvent: {}
+[1.609149] (rttf_car_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.610026] (wheels_driver) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/wheels_driver', 'build', '--build-base', '/home/dev_ws/build/wheels_driver/build', 'install', '--prefix', '/home/dev_ws/install/wheels_driver', '--record', '/home/dev_ws/build/wheels_driver/install.log', '--single-version-externally-managed'], 'cwd': '/home/dev_ws/src/wheels_driver', 'env': {'HOSTNAME': 'ttf-cardrivers-ros2', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dev_ws/install/rttf_car_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/dev_ws/src', 'ROS_PYTHON_VERSION': '3', 'READTHEDOCS': 'True', 'COLCON_PREFIX_PATH': '/home/dev_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/dev_ws/install/adafruit_drivers:/home/dev_ws/install/rttf_car_interfaces:/home/dev_ws/install/wheels_driver:/home/dev_ws/install/car_drivers:/home/dev_ws/install/camera_driver:/opt/ros/foxy', 'PWD': '/home/dev_ws/build/wheels_driver', 'ROS_IPV6': 'off', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages:/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:/home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages:/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages:/home/dev_ws/install/car_drivers/lib/python3.8/site-packages:/home/dev_ws/install/camera_driver/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dev_ws/install/rttf_car_interfaces'}, 'shell': False}
+[1.704558] (-) TimerEvent: {}
+[1.724674] (rttf_car_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.734811] (rttf_car_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.760047] (rttf_car_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.760579] (rttf_car_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.785084] (rttf_car_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.785357] (rttf_car_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.785538] (rttf_car_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.804654] (-) TimerEvent: {}
+[1.807354] (rttf_car_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.824357] (rttf_car_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.827298] (rttf_car_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.828797] (rttf_car_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.834896] (rttf_car_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.849310] (wheels_driver) StdoutLine: {'line': b'running egg_info\n'}
+[1.850212] (wheels_driver) StdoutLine: {'line': b'writing ../../build/wheels_driver/wheels_driver.egg-info/PKG-INFO\n'}
+[1.850565] (wheels_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/wheels_driver/wheels_driver.egg-info/dependency_links.txt\n'}
+[1.850870] (wheels_driver) StdoutLine: {'line': b'writing entry points to ../../build/wheels_driver/wheels_driver.egg-info/entry_points.txt\n'}
+[1.851256] (wheels_driver) StdoutLine: {'line': b'writing requirements to ../../build/wheels_driver/wheels_driver.egg-info/requires.txt\n'}
+[1.851446] (wheels_driver) StdoutLine: {'line': b'writing top-level names to ../../build/wheels_driver/wheels_driver.egg-info/top_level.txt\n'}
+[1.878548] (rttf_car_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.882948] (rttf_car_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/dev_ws/build/rttf_car_interfaces\n'}
+[1.901469] (wheels_driver) StdoutLine: {'line': b"reading manifest file '../../build/wheels_driver/wheels_driver.egg-info/SOURCES.txt'\n"}
+[1.902882] (wheels_driver) StdoutLine: {'line': b"writing manifest file '../../build/wheels_driver/wheels_driver.egg-info/SOURCES.txt'\n"}
+[1.903219] (wheels_driver) StdoutLine: {'line': b'running build\n'}
+[1.903415] (wheels_driver) StdoutLine: {'line': b'running build_py\n'}
+[1.904148] (wheels_driver) StdoutLine: {'line': b'copying wheels_driver/wheels_driver_node.py -> /home/dev_ws/build/wheels_driver/build/lib/wheels_driver\n'}
+[1.904417] (wheels_driver) StdoutLine: {'line': b'running install\n'}
+[1.904725] (-) TimerEvent: {}
+[1.905964] (wheels_driver) StdoutLine: {'line': b'running install_lib\n'}
+[1.907977] (wheels_driver) StdoutLine: {'line': b'copying /home/dev_ws/build/wheels_driver/build/lib/wheels_driver/wheels_driver_node.py -> /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver\n'}
+[1.909197] (wheels_driver) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver/wheels_driver_node.py to wheels_driver_node.cpython-38.pyc\n'}
+[1.911855] (wheels_driver) StdoutLine: {'line': b'running install_data\n'}
+[1.912531] (wheels_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.915339] (wheels_driver) StdoutLine: {'line': b"removing '/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.916228] (wheels_driver) StdoutLine: {'line': b'Copying ../../build/wheels_driver/wheels_driver.egg-info to /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver-0.0.0-py3.8.egg-info\n'}
+[1.917364] (wheels_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[1.923034] (rttf_car_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.936925] (rttf_car_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.951544] (wheels_driver) StdoutLine: {'line': b'Installing wheels_driver script to /home/dev_ws/install/wheels_driver/lib/wheels_driver\n'}
+[1.952432] (wheels_driver) StdoutLine: {'line': b"writing list of installed files to '/home/dev_ws/build/wheels_driver/install.log'\n"}
+[1.993781] (wheels_driver) CommandEnded: {'returncode': 0}
+[2.005008] (-) TimerEvent: {}
+[2.007948] (wheels_driver) JobEnded: {'identifier': 'wheels_driver', 'rc': 0}
+[2.105046] (-) TimerEvent: {}
+[2.209128] (-) TimerEvent: {}
+[2.260719] (rttf_car_interfaces) StdoutLine: {'line': b'[  6%] Built target rttf_car_interfaces__cpp\n'}
+[2.281120] (rttf_car_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.285330] (rttf_car_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.285624] (rttf_car_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.299045] (rttf_car_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rttf_car_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.309229] (-) TimerEvent: {}
+[2.321698] (rttf_car_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/rttf_car_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rttf_car_interfaces/msg/detail/wheels_cmd_stamped__functions.c.o\x1b[0m\n'}
+[2.405903] (rttf_car_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library librttf_car_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.409333] (-) TimerEvent: {}
+[2.475132] (rttf_car_interfaces) StdoutLine: {'line': b'[ 22%] Built target rttf_car_interfaces__rosidl_generator_c\n'}
+[2.494840] (rttf_car_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.509434] (-) TimerEvent: {}
+[2.610285] (-) TimerEvent: {}
+[2.712874] (-) TimerEvent: {}
+[2.726480] (rttf_car_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rttf_car_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.749691] (rttf_car_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/rttf_car_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rttf_car_interfaces/msg/wheels_cmd_stamped__type_support.cpp.o\x1b[0m\n'}
+[2.767946] (rttf_car_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rttf_car_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.779633] (rttf_car_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rttf_car_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.791442] (rttf_car_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/rttf_car_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rttf_car_interfaces/msg/detail/wheels_cmd_stamped__type_support.cpp.o\x1b[0m\n'}
+[2.807494] (rttf_car_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/rttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rttf_car_interfaces/msg/detail/dds_fastrtps/wheels_cmd_stamped__type_support.cpp.o\x1b[0m\n'}
+[2.812995] (-) TimerEvent: {}
+[2.913934] (-) TimerEvent: {}
+[2.977139] (rttf_car_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rttf_car_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.003961] (rttf_car_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/rttf_car_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rttf_car_interfaces/msg/detail/wheels_cmd_stamped__type_support.c.o\x1b[0m\n'}
+[3.014053] (-) TimerEvent: {}
+[3.072767] (rttf_car_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library librttf_car_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.114173] (-) TimerEvent: {}
+[3.131556] (rttf_car_interfaces) StdoutLine: {'line': b'[ 41%] Built target rttf_car_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.152546] (rttf_car_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.214287] (-) TimerEvent: {}
+[3.315321] (-) TimerEvent: {}
+[3.407658] (rttf_car_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library librttf_car_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.415434] (-) TimerEvent: {}
+[3.448706] (rttf_car_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library librttf_car_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.492471] (rttf_car_interfaces) StdoutLine: {'line': b'[ 51%] Built target rttf_car_interfaces__rosidl_typesupport_cpp\n'}
+[3.515550] (-) TimerEvent: {}
+[3.521503] (rttf_car_interfaces) StdoutLine: {'line': b'[ 51%] Built target rttf_car_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.595773] (rttf_car_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rttf_car_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[3.611002] (rttf_car_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/rttf_car_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rttf_car_interfaces/msg/wheels_cmd_stamped__type_support.cpp.o\x1b[0m\n'}
+[3.615668] (-) TimerEvent: {}
+[3.652795] (rttf_car_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library librttf_car_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.661729] (rttf_car_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.706295] (rttf_car_interfaces) StdoutLine: {'line': b'[ 61%] Built target rttf_car_interfaces__rosidl_typesupport_c\n'}
+[3.715789] (-) TimerEvent: {}
+[3.774843] (rttf_car_interfaces) StdoutLine: {'line': b'[ 61%] Built target rttf_car_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.786222] (rttf_car_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.815923] (-) TimerEvent: {}
+[3.916268] (-) TimerEvent: {}
+[4.016589] (-) TimerEvent: {}
+[4.020212] (rttf_car_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rttf_car_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.034594] (rttf_car_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/rttf_car_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rttf_car_interfaces/msg/detail/wheels_cmd_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[4.116712] (-) TimerEvent: {}
+[4.217410] (-) TimerEvent: {}
+[4.317791] (-) TimerEvent: {}
+[4.418180] (-) TimerEvent: {}
+[4.426127] (rttf_car_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library librttf_car_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.518318] (-) TimerEvent: {}
+[4.530718] (rttf_car_interfaces) StdoutLine: {'line': b'[ 70%] Built target rttf_car_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.555657] (rttf_car_interfaces) StdoutLine: {'line': b'[ 70%] Built target rttf_car_interfaces\n'}
+[4.579041] (rttf_car_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.618457] (-) TimerEvent: {}
+[4.718805] (-) TimerEvent: {}
+[4.819133] (-) TimerEvent: {}
+[4.919456] (-) TimerEvent: {}
+[4.995815] (rttf_car_interfaces) StdoutLine: {'line': b'[ 74%] Built target rttf_car_interfaces__py\n'}
+[5.007864] (rttf_car_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rttf_car_interfaces__python\x1b[0m\n'}
+[5.019591] (-) TimerEvent: {}
+[5.024687] (rttf_car_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/rttf_car_interfaces__python.dir/rosidl_generator_py/rttf_car_interfaces/msg/_wheels_cmd_stamped_s.c.o\x1b[0m\n'}
+[5.119727] (-) TimerEvent: {}
+[5.121300] (rttf_car_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rttf_car_interfaces/librttf_car_interfaces__python.so\x1b[0m\n'}
+[5.167876] (rttf_car_interfaces) StdoutLine: {'line': b'[ 80%] Built target rttf_car_interfaces__python\n'}
+[5.182782] (rttf_car_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rttf_car_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.188172] (rttf_car_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rttf_car_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.188442] (rttf_car_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rttf_car_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.204724] (rttf_car_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/rttf_car_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rttf_car_interfaces/_rttf_car_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.216691] (rttf_car_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/rttf_car_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rttf_car_interfaces/_rttf_car_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.219807] (rttf_car_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/rttf_car_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rttf_car_interfaces/_rttf_car_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.220085] (-) TimerEvent: {}
+[5.320946] (-) TimerEvent: {}
+[5.332232] (rttf_car_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.375487] (rttf_car_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.388102] (rttf_car_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.421064] (-) TimerEvent: {}
+[5.433662] (rttf_car_interfaces) StdoutLine: {'line': b'[100%] Built target rttf_car_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[5.441934] (rttf_car_interfaces) StdoutLine: {'line': b'[100%] Built target rttf_car_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.446088] (rttf_car_interfaces) StdoutLine: {'line': b'[100%] Built target rttf_car_interfaces__rosidl_typesupport_c__pyext\n'}
+[5.460935] (rttf_car_interfaces) CommandEnded: {'returncode': 0}
+[5.513931] (rttf_car_interfaces) JobProgress: {'identifier': 'rttf_car_interfaces', 'progress': 'install'}
+[5.521245] (-) TimerEvent: {}
+[5.527183] (rttf_car_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dev_ws/build/rttf_car_interfaces'], 'cwd': '/home/dev_ws/build/rttf_car_interfaces', 'env': OrderedDict([('HOSTNAME', 'ttf-cardrivers-ros2'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dev_ws/install/rttf_car_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('READTHEDOCS', 'True'), ('COLCON_PREFIX_PATH', '/home/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/dev_ws/install/rttf_car_interfaces:/home/dev_ws/install/wheels_driver:/home/dev_ws/install/car_drivers:/home/dev_ws/install/camera_driver:/home/dev_ws/install/adafruit_drivers:/opt/ros/foxy'), ('PWD', '/home/dev_ws/build/rttf_car_interfaces'), ('ROS_IPV6', 'off'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages:/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages:/home/dev_ws/install/car_drivers/lib/python3.8/site-packages:/home/dev_ws/install/camera_driver/lib/python3.8/site-packages:/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/dev_ws/install/rttf_car_interfaces:/home/dev_ws/install/wheels_driver:/home/dev_ws/install/car_drivers:/home/dev_ws/install/camera_driver:/home/dev_ws/install/adafruit_drivers:/opt/ros/foxy')]), 'shell': False}
+[5.541853] (rttf_car_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.542201] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/ament_index/resource_index/rosidl_interfaces/rttf_car_interfaces\n'}
+[5.542371] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces\n'}
+[5.542506] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg\n'}
+[5.542629] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/wheels_cmd_stamped.h\n'}
+[5.542760] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail\n'}
+[5.542894] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail/wheels_cmd_stamped__struct.h\n'}
+[5.543054] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail/wheels_cmd_stamped__type_support.h\n'}
+[5.543139] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail/wheels_cmd_stamped__functions.c\n'}
+[5.543220] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail/wheels_cmd_stamped__functions.h\n'}
+[5.543299] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.543383] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/environment/library_path.sh\n'}
+[5.543503] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/environment/library_path.dsv\n'}
+[5.543586] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/lib/librttf_car_interfaces__rosidl_generator_c.so\n'}
+[5.543882] (rttf_car_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/rttf_car_interfaces/lib/librttf_car_interfaces__rosidl_generator_c.so" to ""\n'}
+[5.544010] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces\n'}
+[5.544194] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg\n'}
+[5.544320] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail\n'}
+[5.544403] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail/wheels_cmd_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[5.544483] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.544604] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/lib/librttf_car_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.545148] (rttf_car_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/rttf_car_interfaces/lib/librttf_car_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.545324] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces\n'}
+[5.545489] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg\n'}
+[5.545618] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail\n'}
+[5.545708] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail/dds_fastrtps\n'}
+[5.545790] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail/wheels_cmd_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.545915] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.545998] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/lib/librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.546361] (rttf_car_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/rttf_car_interfaces/lib/librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.546491] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces\n'}
+[5.546670] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg\n'}
+[5.546796] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail\n'}
+[5.546922] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail/wheels_cmd_stamped__type_support.c\n'}
+[5.547006] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail/wheels_cmd_stamped__rosidl_typesupport_introspection_c.h\n'}
+[5.547087] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.547209] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/lib/librttf_car_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.547716] (rttf_car_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/rttf_car_interfaces/lib/librttf_car_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.548270] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/lib/librttf_car_interfaces__rosidl_typesupport_c.so\n'}
+[5.548854] (rttf_car_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/rttf_car_interfaces/lib/librttf_car_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[5.549289] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces\n'}
+[5.549568] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg\n'}
+[5.549779] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/wheels_cmd_stamped.hpp\n'}
+[5.549988] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail\n'}
+[5.550217] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail/wheels_cmd_stamped__struct.hpp\n'}
+[5.550382] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail/wheels_cmd_stamped__traits.hpp\n'}
+[5.550607] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail/wheels_cmd_stamped__builder.hpp\n'}
+[5.550769] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces\n'}
+[5.550947] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg\n'}
+[5.551091] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail\n'}
+[5.551256] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail/wheels_cmd_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.551428] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/include/rttf_car_interfaces/msg/detail/wheels_cmd_stamped__type_support.cpp\n'}
+[5.551631] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/lib/librttf_car_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.552196] (rttf_car_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/rttf_car_interfaces/lib/librttf_car_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.552625] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/lib/librttf_car_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.553359] (rttf_car_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/rttf_car_interfaces/lib/librttf_car_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[5.553535] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/environment/pythonpath.sh\n'}
+[5.553699] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/environment/pythonpath.dsv\n'}
+[5.553868] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages/rttf_car_interfaces/__init__.py\n'}
+[5.596672] (rttf_car_interfaces) StdoutLine: {'line': b"Compiling '/home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages/rttf_car_interfaces/__init__.py'...\n"}
+[5.601563] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages/rttf_car_interfaces/msg\n'}
+[5.601887] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages/rttf_car_interfaces/msg/_wheels_cmd_stamped.py\n'}
+[5.602014] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages/rttf_car_interfaces/msg/__init__.py\n'}
+[5.602153] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages/rttf_car_interfaces/msg/_wheels_cmd_stamped_s.c\n'}
+[5.602703] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.603482] (rttf_car_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[5.604017] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.604789] (rttf_car_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[5.605348] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.606053] (rttf_car_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/rttf_car_interfaces/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[5.606414] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/lib/librttf_car_interfaces__python.so\n'}
+[5.606939] (rttf_car_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/rttf_car_interfaces/lib/librttf_car_interfaces__python.so" to ""\n'}
+[5.607179] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/msg/WheelsCmdStamped.idl\n'}
+[5.607393] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/msg/WheelsCmdStamped.msg\n'}
+[5.607576] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/ament_index/resource_index/package_run_dependencies/rttf_car_interfaces\n'}
+[5.607717] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/share/ament_index/resource_index/parent_prefix_path/rttf_car_interfaces\n'}
+[5.607863] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/environment/ament_prefix_path.sh\n'}
+[5.607995] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/environment/ament_prefix_path.dsv\n'}
+[5.608174] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/environment/path.sh\n'}
+[5.608302] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/environment/path.dsv\n'}
+[5.608459] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/local_setup.bash\n'}
+[5.608602] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/local_setup.sh\n'}
+[5.608767] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/local_setup.zsh\n'}
+[5.608855] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/local_setup.dsv\n'}
+[5.609019] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/package.dsv\n'}
+[5.609173] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/ament_index/resource_index/packages/rttf_car_interfaces\n'}
+[5.609432] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/rttf_car_interfaces__rosidl_generator_cExport.cmake\n'}
+[5.609572] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/rttf_car_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.609944] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/rttf_car_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.610083] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/rttf_car_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.610413] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/rttf_car_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[5.610552] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/rttf_car_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.610890] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/rttf_car_interfaces__rosidl_generator_cppExport.cmake\n'}
+[5.611163] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/rttf_car_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.611295] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/rttf_car_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.611667] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/rttf_car_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[5.611814] (rttf_car_interfaces) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/rttf_car_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.611988] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[5.612115] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.612282] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.612409] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.612564] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.612720] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.612837] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.612918] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/rttf_car_interfacesConfig.cmake\n'}
+[5.613034] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/cmake/rttf_car_interfacesConfig-version.cmake\n'}
+[5.613123] (rttf_car_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/rttf_car_interfaces/share/rttf_car_interfaces/package.xml\n'}
+[5.615452] (rttf_car_interfaces) CommandEnded: {'returncode': 0}
+[5.621557] (-) TimerEvent: {}
+[5.697665] (rttf_car_interfaces) JobEnded: {'identifier': 'rttf_car_interfaces', 'rc': 0}
+[5.699178] (-) EventReactorShutdown: {}

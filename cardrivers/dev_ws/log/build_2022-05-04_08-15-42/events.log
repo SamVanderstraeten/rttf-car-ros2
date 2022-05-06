@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.000605] (adafruit_drivers) JobQueued: {'identifier': 'adafruit_drivers', 'dependencies': OrderedDict()}
+[0.000878] (camera_driver) JobQueued: {'identifier': 'camera_driver', 'dependencies': OrderedDict()}
+[0.001085] (wheels_driver) JobQueued: {'identifier': 'wheels_driver', 'dependencies': OrderedDict()}
+[0.001142] (adafruit_drivers) JobStarted: {'identifier': 'adafruit_drivers'}
+[0.012119] (camera_driver) JobStarted: {'identifier': 'camera_driver'}
+[0.020703] (wheels_driver) JobStarted: {'identifier': 'wheels_driver'}
+[0.099777] (-) TimerEvent: {}
+[0.200227] (-) TimerEvent: {}
+[0.300631] (-) TimerEvent: {}
+[0.401245] (-) TimerEvent: {}
+[0.501800] (-) TimerEvent: {}
+[0.584837] (adafruit_drivers) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/adafruit_drivers', 'build', '--build-base', '/home/dev_ws/build/adafruit_drivers/build', 'install', '--prefix', '/home/dev_ws/install/adafruit_drivers', '--record', '/home/dev_ws/build/adafruit_drivers/install.log', '--single-version-externally-managed'], 'cwd': '/home/dev_ws/src/adafruit_drivers', 'env': {'HOSTNAME': 'ttf-cardrivers-ros2', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/dev_ws/src/wheels_driver/wheels_driver', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'PWD': '/home/dev_ws/build/adafruit_drivers', 'ROS_IPV6': 'off', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.590160] (camera_driver) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_driver', 'build', '--build-base', '/home/dev_ws/build/camera_driver/build', 'install', '--prefix', '/home/dev_ws/install/camera_driver', '--record', '/home/dev_ws/build/camera_driver/install.log', '--single-version-externally-managed'], 'cwd': '/home/dev_ws/src/camera_driver', 'env': {'HOSTNAME': 'ttf-cardrivers-ros2', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/dev_ws/src/wheels_driver/wheels_driver', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'PWD': '/home/dev_ws/build/camera_driver', 'ROS_IPV6': 'off', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/dev_ws/install/camera_driver/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.596995] (wheels_driver) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/wheels_driver', 'build', '--build-base', '/home/dev_ws/build/wheels_driver/build', 'install', '--prefix', '/home/dev_ws/install/wheels_driver', '--record', '/home/dev_ws/build/wheels_driver/install.log', '--single-version-externally-managed'], 'cwd': '/home/dev_ws/src/wheels_driver', 'env': {'HOSTNAME': 'ttf-cardrivers-ros2', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/dev_ws/src/wheels_driver/wheels_driver', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'PWD': '/home/dev_ws/build/wheels_driver', 'ROS_IPV6': 'off', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.601918] (-) TimerEvent: {}
+[0.702320] (-) TimerEvent: {}
+[0.767966] (adafruit_drivers) StdoutLine: {'line': b'running egg_info\n'}
+[0.768719] (adafruit_drivers) StdoutLine: {'line': b'writing ../../build/adafruit_drivers/adafruit_drivers.egg-info/PKG-INFO\n'}
+[0.769033] (adafruit_drivers) StdoutLine: {'line': b'writing dependency_links to ../../build/adafruit_drivers/adafruit_drivers.egg-info/dependency_links.txt\n'}
+[0.769275] (adafruit_drivers) StdoutLine: {'line': b'writing entry points to ../../build/adafruit_drivers/adafruit_drivers.egg-info/entry_points.txt\n'}
+[0.769522] (adafruit_drivers) StdoutLine: {'line': b'writing requirements to ../../build/adafruit_drivers/adafruit_drivers.egg-info/requires.txt\n'}
+[0.769670] (adafruit_drivers) StdoutLine: {'line': b'writing top-level names to ../../build/adafruit_drivers/adafruit_drivers.egg-info/top_level.txt\n'}
+[0.802418] (-) TimerEvent: {}
+[0.833527] (adafruit_drivers) StdoutLine: {'line': b"reading manifest file '../../build/adafruit_drivers/adafruit_drivers.egg-info/SOURCES.txt'\n"}
+[0.835311] (adafruit_drivers) StdoutLine: {'line': b"writing manifest file '../../build/adafruit_drivers/adafruit_drivers.egg-info/SOURCES.txt'\n"}
+[0.835623] (adafruit_drivers) StdoutLine: {'line': b'running build\n'}
+[0.835786] (adafruit_drivers) StdoutLine: {'line': b'running build_py\n'}
+[0.836001] (adafruit_drivers) StdoutLine: {'line': b'copying include/Adafruit_I2C/Adafruit_I2C.py -> /home/dev_ws/build/adafruit_drivers/build/lib/include/Adafruit_I2C\n'}
+[0.837011] (adafruit_drivers) StdoutLine: {'line': b'running install\n'}
+[0.838258] (adafruit_drivers) StdoutLine: {'line': b'running install_lib\n'}
+[0.840143] (adafruit_drivers) StdoutLine: {'line': b'copying /home/dev_ws/build/adafruit_drivers/build/lib/include/Adafruit_I2C/Adafruit_I2C.py -> /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/include/Adafruit_I2C\n'}
+[0.843136] (adafruit_drivers) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/include/Adafruit_I2C/Adafruit_I2C.py to Adafruit_I2C.cpython-38.pyc\n'}
+[0.843902] (adafruit_drivers) StderrLine: {'line': b'  File "/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/include/Adafruit_I2C/Adafruit_I2C.py", line 66\n'}
+[0.844214] (adafruit_drivers) StderrLine: {'line': b'    except IOError, err:\n'}
+[0.844556] (adafruit_drivers) StderrLine: {'line': b'                  ^\n'}
+[0.844830] (adafruit_drivers) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[0.844994] (adafruit_drivers) StderrLine: {'line': b'\n'}
+[0.845173] (adafruit_drivers) StderrLine: {'line': b'  File "/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/include/PCA9685/PWMSteering.py", line 15\n'}
+[0.845322] (adafruit_drivers) StderrLine: {'line': b"    rclpy.get_logger().info('[PWM Steering] Set speed pulse to %s', pulse))\n"}
+[0.845461] (adafruit_drivers) StderrLine: {'line': b'                                                                          ^\n'}
+[0.845592] (adafruit_drivers) StderrLine: {'line': b"SyntaxError: unmatched ')'\n"}
+[0.845725] (adafruit_drivers) StderrLine: {'line': b'\n'}
+[0.845856] (adafruit_drivers) StdoutLine: {'line': b'byte-compiling /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/include/PCA9685/PWMSteering.py to PWMSteering.cpython-38.pyc\n'}
+[0.845993] (adafruit_drivers) StdoutLine: {'line': b'running install_data\n'}
+[0.846206] (adafruit_drivers) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.847850] (adafruit_drivers) StdoutLine: {'line': b"removing '/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.848300] (adafruit_drivers) StdoutLine: {'line': b'Copying ../../build/adafruit_drivers/adafruit_drivers.egg-info to /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers-0.0.0-py3.8.egg-info\n'}
+[0.849769] (adafruit_drivers) StdoutLine: {'line': b'running install_scripts\n'}
+[0.863517] (wheels_driver) StdoutLine: {'line': b'running egg_info\n'}
+[0.864323] (wheels_driver) StdoutLine: {'line': b'writing ../../build/wheels_driver/wheels_driver.egg-info/PKG-INFO\n'}
+[0.864718] (wheels_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/wheels_driver/wheels_driver.egg-info/dependency_links.txt\n'}
+[0.865043] (wheels_driver) StdoutLine: {'line': b'writing entry points to ../../build/wheels_driver/wheels_driver.egg-info/entry_points.txt\n'}
+[0.865370] (wheels_driver) StdoutLine: {'line': b'writing requirements to ../../build/wheels_driver/wheels_driver.egg-info/requires.txt\n'}
+[0.865525] (wheels_driver) StdoutLine: {'line': b'writing top-level names to ../../build/wheels_driver/wheels_driver.egg-info/top_level.txt\n'}
+[0.866065] (camera_driver) StdoutLine: {'line': b'running egg_info\n'}
+[0.867166] (camera_driver) StdoutLine: {'line': b'writing ../../build/camera_driver/camera_driver.egg-info/PKG-INFO\n'}
+[0.867496] (camera_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_driver/camera_driver.egg-info/dependency_links.txt\n'}
+[0.867761] (camera_driver) StdoutLine: {'line': b'writing entry points to ../../build/camera_driver/camera_driver.egg-info/entry_points.txt\n'}
+[0.868044] (camera_driver) StdoutLine: {'line': b'writing requirements to ../../build/camera_driver/camera_driver.egg-info/requires.txt\n'}
+[0.868226] (camera_driver) StdoutLine: {'line': b'writing top-level names to ../../build/camera_driver/camera_driver.egg-info/top_level.txt\n'}
+[0.880089] (adafruit_drivers) StdoutLine: {'line': b"writing list of installed files to '/home/dev_ws/build/adafruit_drivers/install.log'\n"}
+[0.902525] (-) TimerEvent: {}
+[0.915056] (wheels_driver) StdoutLine: {'line': b"reading manifest file '../../build/wheels_driver/wheels_driver.egg-info/SOURCES.txt'\n"}
+[0.915296] (wheels_driver) StdoutLine: {'line': b"writing manifest file '../../build/wheels_driver/wheels_driver.egg-info/SOURCES.txt'\n"}
+[0.915500] (wheels_driver) StdoutLine: {'line': b'running build\n'}
+[0.916210] (wheels_driver) StdoutLine: {'line': b'running build_py\n'}
+[0.923413] (wheels_driver) StdoutLine: {'line': b'running install\n'}
+[0.923601] (wheels_driver) StdoutLine: {'line': b'running install_lib\n'}
+[0.923741] (adafruit_drivers) CommandEnded: {'returncode': 0}
+[0.924107] (wheels_driver) StdoutLine: {'line': b'running install_data\n'}
+[0.924257] (wheels_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.924392] (wheels_driver) StdoutLine: {'line': b"removing '/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.924526] (wheels_driver) StdoutLine: {'line': b'Copying ../../build/wheels_driver/wheels_driver.egg-info to /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver-0.0.0-py3.8.egg-info\n'}
+[0.924897] (wheels_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[0.933278] (camera_driver) StdoutLine: {'line': b"reading manifest file '../../build/camera_driver/camera_driver.egg-info/SOURCES.txt'\n"}
+[0.934183] (camera_driver) StdoutLine: {'line': b"writing manifest file '../../build/camera_driver/camera_driver.egg-info/SOURCES.txt'\n"}
+[0.934427] (camera_driver) StdoutLine: {'line': b'running build\n'}
+[0.934578] (camera_driver) StdoutLine: {'line': b'running build_py\n'}
+[0.934787] (camera_driver) StdoutLine: {'line': b'running install\n'}
+[0.936034] (camera_driver) StdoutLine: {'line': b'running install_lib\n'}
+[0.938844] (camera_driver) StdoutLine: {'line': b'running install_data\n'}
+[0.939167] (camera_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.941641] (adafruit_drivers) JobEnded: {'identifier': 'adafruit_drivers', 'rc': 0}
+[0.942636] (camera_driver) StdoutLine: {'line': b"removing '/home/dev_ws/install/camera_driver/lib/python3.8/site-packages/camera_driver-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.942851] (camera_driver) StdoutLine: {'line': b'Copying ../../build/camera_driver/camera_driver.egg-info to /home/dev_ws/install/camera_driver/lib/python3.8/site-packages/camera_driver-0.0.0-py3.8.egg-info\n'}
+[0.943572] (wheels_driver) StdoutLine: {'line': b'Installing wheels_driver script to /home/dev_ws/install/wheels_driver/lib/wheels_driver\n'}
+[0.943845] (camera_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[0.944073] (wheels_driver) StdoutLine: {'line': b"writing list of installed files to '/home/dev_ws/build/wheels_driver/install.log'\n"}
+[0.965696] (camera_driver) StdoutLine: {'line': b"writing list of installed files to '/home/dev_ws/build/camera_driver/install.log'\n"}
+[0.975181] (wheels_driver) CommandEnded: {'returncode': 0}
+[0.983298] (wheels_driver) JobEnded: {'identifier': 'wheels_driver', 'rc': 0}
+[0.997389] (camera_driver) CommandEnded: {'returncode': 0}
+[1.002765] (-) TimerEvent: {}
+[1.005145] (camera_driver) JobEnded: {'identifier': 'camera_driver', 'rc': 0}
+[1.006444] (-) EventReactorShutdown: {}

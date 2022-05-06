@@ -1,0 +1,21 @@
+[0.710s] Invoking command in '/home/dev_ws/src/camera_driver': PYTHONPATH=/home/dev_ws/install/camera_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_driver build --build-base /home/dev_ws/build/camera_driver/build install --prefix /home/dev_ws/install/camera_driver --record /home/dev_ws/build/camera_driver/install.log --single-version-externally-managed
+[1.081s] running egg_info
+[1.082s] writing ../../build/camera_driver/camera_driver.egg-info/PKG-INFO
+[1.082s] writing dependency_links to ../../build/camera_driver/camera_driver.egg-info/dependency_links.txt
+[1.083s] writing entry points to ../../build/camera_driver/camera_driver.egg-info/entry_points.txt
+[1.083s] writing requirements to ../../build/camera_driver/camera_driver.egg-info/requires.txt
+[1.084s] writing top-level names to ../../build/camera_driver/camera_driver.egg-info/top_level.txt
+[1.158s] reading manifest file '../../build/camera_driver/camera_driver.egg-info/SOURCES.txt'
+[1.160s] writing manifest file '../../build/camera_driver/camera_driver.egg-info/SOURCES.txt'
+[1.160s] running build
+[1.161s] running build_py
+[1.161s] running install
+[1.163s] running install_lib
+[1.166s] running install_data
+[1.167s] running install_egg_info
+[1.170s] removing '/home/dev_ws/install/camera_driver/lib/python3.8/site-packages/camera_driver-0.0.0-py3.8.egg-info' (and everything under it)
+[1.170s] Copying ../../build/camera_driver/camera_driver.egg-info to /home/dev_ws/install/camera_driver/lib/python3.8/site-packages/camera_driver-0.0.0-py3.8.egg-info
+[1.172s] running install_scripts
+[1.205s] Installing camera_driver script to /home/dev_ws/install/camera_driver/lib/camera_driver
+[1.205s] writing list of installed files to '/home/dev_ws/build/camera_driver/install.log'
+[1.261s] Invoked command in '/home/dev_ws/src/camera_driver' returned '0': PYTHONPATH=/home/dev_ws/install/camera_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_driver build --build-base /home/dev_ws/build/camera_driver/build install --prefix /home/dev_ws/install/camera_driver --record /home/dev_ws/build/camera_driver/install.log --single-version-externally-managed

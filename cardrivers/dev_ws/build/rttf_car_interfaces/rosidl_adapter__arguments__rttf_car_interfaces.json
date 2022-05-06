@@ -1,0 +1,6 @@
+{
+  "package_name": "rttf_car_interfaces",
+  "non_idl_tuples": [
+    "/home/dev_ws/src/rttf_car_interfaces:msg/WheelsCmdStamped.msg"
+  ]
+}

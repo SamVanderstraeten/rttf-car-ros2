@@ -1,0 +1,37 @@
+[0.582s] Invoking command in '/home/dev_ws/src/wheels_driver': PYTHONPATH=/home/dev_ws/install/wheels_driver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wheels_driver build --build-base /home/dev_ws/build/wheels_driver/build install --prefix /home/dev_ws/install/wheels_driver --record /home/dev_ws/build/wheels_driver/install.log --single-version-externally-managed
+[0.862s] running egg_info
+[0.863s] creating ../../build/wheels_driver/wheels_driver.egg-info
+[0.863s] writing ../../build/wheels_driver/wheels_driver.egg-info/PKG-INFO
+[0.863s] writing dependency_links to ../../build/wheels_driver/wheels_driver.egg-info/dependency_links.txt
+[0.864s] writing entry points to ../../build/wheels_driver/wheels_driver.egg-info/entry_points.txt
+[0.864s] writing requirements to ../../build/wheels_driver/wheels_driver.egg-info/requires.txt
+[0.864s] writing top-level names to ../../build/wheels_driver/wheels_driver.egg-info/top_level.txt
+[0.866s] writing manifest file '../../build/wheels_driver/wheels_driver.egg-info/SOURCES.txt'
+[0.919s] reading manifest file '../../build/wheels_driver/wheels_driver.egg-info/SOURCES.txt'
+[0.920s] writing manifest file '../../build/wheels_driver/wheels_driver.egg-info/SOURCES.txt'
+[0.920s] running build
+[0.920s] running build_py
+[0.920s] creating /home/dev_ws/build/wheels_driver/build
+[0.921s] creating /home/dev_ws/build/wheels_driver/build/lib
+[0.921s] creating /home/dev_ws/build/wheels_driver/build/lib/wheels_driver
+[0.921s] copying include/wheels_driver/__init__.py -> /home/dev_ws/build/wheels_driver/build/lib/wheels_driver
+[0.921s] copying include/wheels_driver/RcDriver.py -> /home/dev_ws/build/wheels_driver/build/lib/wheels_driver
+[0.921s] running install
+[0.922s] running install_lib
+[0.923s] creating /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver
+[0.923s] copying /home/dev_ws/build/wheels_driver/build/lib/wheels_driver/__init__.py -> /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver
+[0.923s] copying /home/dev_ws/build/wheels_driver/build/lib/wheels_driver/RcDriver.py -> /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver
+[0.924s] byte-compiling /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver/__init__.py to __init__.cpython-38.pyc
+[0.925s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (__init__.py, line 3)
+[0.925s] byte-compiling /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver/RcDriver.py to RcDriver.cpython-38.pyc
+[0.925s] running install_data
+[0.926s] creating /home/dev_ws/install/wheels_driver/share/ament_index
+[0.926s] creating /home/dev_ws/install/wheels_driver/share/ament_index/resource_index
+[0.926s] creating /home/dev_ws/install/wheels_driver/share/ament_index/resource_index/packages
+[0.926s] copying resource/wheels_driver -> /home/dev_ws/install/wheels_driver/share/ament_index/resource_index/packages
+[0.926s] copying package.xml -> /home/dev_ws/install/wheels_driver/share/wheels_driver
+[0.927s] running install_egg_info
+[0.928s] Copying ../../build/wheels_driver/wheels_driver.egg-info to /home/dev_ws/install/wheels_driver/lib/python3.8/site-packages/wheels_driver-0.0.0-py3.8.egg-info
+[0.929s] running install_scripts
+[0.950s] Installing wheels_driver script to /home/dev_ws/install/wheels_driver/lib/wheels_driver
+[0.951s] writing list of installed files to '/home/dev_ws/build/wheels_driver/install.log'

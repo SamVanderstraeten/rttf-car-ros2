@@ -1,0 +1,32 @@
+running egg_info
+writing ../../build/adafruit_drivers/adafruit_drivers.egg-info/PKG-INFO
+writing dependency_links to ../../build/adafruit_drivers/adafruit_drivers.egg-info/dependency_links.txt
+writing entry points to ../../build/adafruit_drivers/adafruit_drivers.egg-info/entry_points.txt
+writing requirements to ../../build/adafruit_drivers/adafruit_drivers.egg-info/requires.txt
+writing top-level names to ../../build/adafruit_drivers/adafruit_drivers.egg-info/top_level.txt
+reading manifest file '../../build/adafruit_drivers/adafruit_drivers.egg-info/SOURCES.txt'
+writing manifest file '../../build/adafruit_drivers/adafruit_drivers.egg-info/SOURCES.txt'
+running build
+running build_py
+copying include/Adafruit_I2C/Adafruit_I2C.py -> /home/dev_ws/build/adafruit_drivers/build/lib/include/Adafruit_I2C
+running install
+running install_lib
+copying /home/dev_ws/build/adafruit_drivers/build/lib/include/Adafruit_I2C/Adafruit_I2C.py -> /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/include/Adafruit_I2C
+byte-compiling /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/include/Adafruit_I2C/Adafruit_I2C.py to Adafruit_I2C.cpython-38.pyc
+  File "/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/include/Adafruit_I2C/Adafruit_I2C.py", line 66
+    except IOError, err:
+                  ^
+SyntaxError: invalid syntax
+
+  File "/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/include/PCA9685/PWMSteering.py", line 15
+    rclpy.get_logger().info('[PWM Steering] Set speed pulse to %s', pulse))
+                                                                          ^
+SyntaxError: unmatched ')'
+
+byte-compiling /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/include/PCA9685/PWMSteering.py to PWMSteering.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/adafruit_drivers/adafruit_drivers.egg-info to /home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages/adafruit_drivers-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/dev_ws/build/adafruit_drivers/install.log'

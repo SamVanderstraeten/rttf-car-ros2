@@ -1,0 +1,6 @@
+source;share/dummy_driver/hook/pythonpath.ps1
+source;share/dummy_driver/hook/pythonpath.dsv
+source;share/dummy_driver/hook/pythonpath.sh
+source;share/dummy_driver/hook/ament_prefix_path.ps1
+source;share/dummy_driver/hook/ament_prefix_path.dsv
+source;share/dummy_driver/hook/ament_prefix_path.sh

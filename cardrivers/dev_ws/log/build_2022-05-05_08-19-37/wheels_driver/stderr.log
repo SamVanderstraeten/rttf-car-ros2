@@ -1,0 +1,3 @@
+WARNING: '../adafruit_drivers/include/Adafruit_I2C' not a valid package name; please use only .-separated package names in setup.py
+WARNING: '../adafruit_drivers/include/PCA9685' not a valid package name; please use only .-separated package names in setup.py
+error: package directory '/adafruit_drivers/include/Adafruit_I2C' does not exist

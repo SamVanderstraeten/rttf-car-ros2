@@ -80,7 +80,7 @@ rttf_car_interfaces__python_EXTERNAL_OBJECTS =
 rosidl_generator_py/rttf_car_interfaces/librttf_car_interfaces__python.so: CMakeFiles/rttf_car_interfaces__python.dir/rosidl_generator_py/rttf_car_interfaces/msg/_wheels_cmd_stamped_s.c.o
 rosidl_generator_py/rttf_car_interfaces/librttf_car_interfaces__python.so: CMakeFiles/rttf_car_interfaces__python.dir/build.make
 rosidl_generator_py/rttf_car_interfaces/librttf_car_interfaces__python.so: librttf_car_interfaces__rosidl_generator_c.so
-rosidl_generator_py/rttf_car_interfaces/librttf_car_interfaces__python.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+rosidl_generator_py/rttf_car_interfaces/librttf_car_interfaces__python.so: /usr/lib/aarch64-linux-gnu/libpython3.8.so
 rosidl_generator_py/rttf_car_interfaces/librttf_car_interfaces__python.so: librttf_car_interfaces__rosidl_typesupport_c.so
 rosidl_generator_py/rttf_car_interfaces/librttf_car_interfaces__python.so: /opt/ros/foxy/lib/librosidl_typesupport_c.so
 rosidl_generator_py/rttf_car_interfaces/librttf_car_interfaces__python.so: /opt/ros/foxy/lib/librosidl_runtime_c.so

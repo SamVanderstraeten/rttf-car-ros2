@@ -97,14 +97,14 @@ librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/rttf_car_
 librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/foxy/lib/librmw.so
 librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/foxy/lib/librosidl_typesupport_fastrtps_cpp.so
-librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/foxy/lib/libfastrtps.so.2.0.2
+librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/foxy/lib/libfastrtps.so.2.1.1
 librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/foxy/lib/libfastcdr.so.1.0.13
 librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/foxy/lib/librcutils.so
-librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/foxy/lib/libfoonathan_memory-0.6.2.a
-librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/x86_64-linux-gnu/libssl.so
-librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
+librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/foxy/lib/libfoonathan_memory-0.7.1.a
+librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
+librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
+librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/aarch64-linux-gnu/libssl.so
+librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: /usr/lib/aarch64-linux-gnu/libcrypto.so
 librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/rttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dev_ws/build/rttf_car_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library librttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rttf_car_interfaces__rosidl_typesupport_fastrtps_cpp.dir/link.txt --verbose=$(VERBOSE)

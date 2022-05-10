@@ -1,9 +1,0 @@
-[0.810s] Invoking command in '/home/dev_ws/src/adafruit_drivers': PYTHONPATH=/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/adafruit_drivers build --build-base /home/dev_ws/build/adafruit_drivers/build install --prefix /home/dev_ws/install/adafruit_drivers --record /home/dev_ws/build/adafruit_drivers/install.log --single-version-externally-managed
-[1.092s] running egg_info
-[1.093s] writing ../../build/adafruit_drivers/adafruit_drivers.egg-info/PKG-INFO
-[1.094s] writing dependency_links to ../../build/adafruit_drivers/adafruit_drivers.egg-info/dependency_links.txt
-[1.094s] writing entry points to ../../build/adafruit_drivers/adafruit_drivers.egg-info/entry_points.txt
-[1.094s] writing requirements to ../../build/adafruit_drivers/adafruit_drivers.egg-info/requires.txt
-[1.094s] writing top-level names to ../../build/adafruit_drivers/adafruit_drivers.egg-info/top_level.txt
-[1.159s] error: package directory 'include/PCA9685/PCA9685' does not exist
-[1.189s] Invoked command in '/home/dev_ws/src/adafruit_drivers' returned '1': PYTHONPATH=/home/dev_ws/install/adafruit_drivers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/adafruit_drivers build --build-base /home/dev_ws/build/adafruit_drivers/build install --prefix /home/dev_ws/install/adafruit_drivers --record /home/dev_ws/build/adafruit_drivers/install.log --single-version-externally-managed

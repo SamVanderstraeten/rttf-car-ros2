@@ -259,21 +259,21 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces" TYPE SHARED_LIBRARY FILES "/home/dev_ws/build/rttf_car_interfaces/rosidl_generator_py/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces" TYPE SHARED_LIBRARY FILES "/home/dev_ws/build/rttf_car_interfaces/rosidl_generator_py/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so"
          OLD_RPATH "/home/dev_ws/build/rttf_car_interfaces/rosidl_generator_py/rttf_car_interfaces:/home/dev_ws/build/rttf_car_interfaces:/opt/ros/foxy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so")
     endif()
   endif()
 endif()
@@ -282,21 +282,21 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces" TYPE SHARED_LIBRARY FILES "/home/dev_ws/build/rttf_car_interfaces/rosidl_generator_py/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces" TYPE SHARED_LIBRARY FILES "/home/dev_ws/build/rttf_car_interfaces/rosidl_generator_py/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so"
          OLD_RPATH "/home/dev_ws/build/rttf_car_interfaces/rosidl_generator_py/rttf_car_interfaces:/home/dev_ws/build/rttf_car_interfaces:/opt/ros/foxy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so")
     endif()
   endif()
 endif()
@@ -305,21 +305,21 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces" TYPE SHARED_LIBRARY FILES "/home/dev_ws/build/rttf_car_interfaces/rosidl_generator_py/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces" TYPE SHARED_LIBRARY FILES "/home/dev_ws/build/rttf_car_interfaces/rosidl_generator_py/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so"
          OLD_RPATH "/home/dev_ws/build/rttf_car_interfaces/rosidl_generator_py/rttf_car_interfaces:/home/dev_ws/build/rttf_car_interfaces:/opt/ros/foxy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/rttf_car_interfaces/rttf_car_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so")
     endif()
   endif()
 endif()

@@ -13,12 +13,6 @@ adafruit_drivers/PCA9685.py
 adafruit_drivers/PWMSteering.py
 adafruit_drivers/PWMThrottle.py
 adafruit_drivers/__init__.py
-include/Adafruit_I2C/Adafruit_I2C.py
-include/Adafruit_I2C/__init__.py
-include/PCA9685/PCA9685.py
-include/PCA9685/PWMSteering.py
-include/PCA9685/PWMThrottle.py
-include/PCA9685/__init__.py
 resource/adafruit_drivers
 test/test_copyright.py
 test/test_flake8.py

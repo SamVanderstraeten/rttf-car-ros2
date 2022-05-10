@@ -15,12 +15,16 @@ class RecklessDriverNode(Node):
         self.msg_wheels_cmd = WheelsCmdStamped()
         self.pub_wheels_cmd = self.create_publisher(WheelsCmdStamped, "/wheels/wheels_driver/wheels_cmd", 1)
 
+        self.get_logger().info("[%s] Sending dummy messages..." %(self.node_name))
+
+        i = 20
         while True:
             self.sendWheelMsg()
             time.sleep(0.5)
+            i-=1
     
     def sendWheelMsg(self):
-        self.msg_wheels_cmd.velocity = 0.5
+        self.msg_wheels_cmd.velocity = 0.2
         self.msg_wheels_cmd.rotation = 0.1
 
         self.pub_wheels_cmd.publish(self.msg_wheels_cmd)

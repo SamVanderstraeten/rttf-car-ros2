@@ -7,7 +7,7 @@ from rclpy.parameter import Parameter
 #from edgecar_msgs.msg import WheelsCmdStamped, BoolStamped
 from rttf_car_interfaces.msg import WheelsCmdStamped
 from std_msgs.msg import Bool
-from wheels_driver.RcDriver import RcDriver
+#from wheels_driver.RcDriver import RcDriver
 from adafruit_drivers.PCA9685 import PCA9685_Driver
 from adafruit_drivers.PWMSteering import PWMSteering
 from adafruit_drivers.PWMThrottle import PWMThrottle
@@ -64,7 +64,7 @@ class WheelsDriverNode(Node):
         self.control_constant = 1.0
         # Done 
         self.sub_e_stop = self.create_subscription(Bool,"~/emergency_stop", self.cbEStop, 1)
-        self.sub_e_stop = self.create_subscription(WheelsCmdStamped,"~/wheels_cmd", self.cbWheelsCmd, 1)
+        self.sub_e_stop = self.create_subscription(WheelsCmdStamped,"/wheels/wheels_driver/wheels_cmd", self.cbWheelsCmd, 1)
         self.sub_e_stop = self.create_subscription(Bool,"~/radius_limit", self.cbRadLimit, 1)
 
         self.estop = False

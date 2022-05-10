@@ -5,7 +5,7 @@
 1. Clone repo on RPi
 2. ```cd rttf-car-ros2/cardrivers```
 3. ```./00_build.sh```
-4. ```./01_run.sh```
+4. ```./01_run.sh``` or ```docker start rttf-cardrivers-ros2```
 
 5. ```./02_attach.sh```
 6. ```./rebuild_ros.sh``` (just to be sure, should done automatically)

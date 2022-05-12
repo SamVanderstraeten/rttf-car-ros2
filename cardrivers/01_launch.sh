@@ -6,6 +6,5 @@ docker run --privileged -it \
         --hostname rttf-cardrivers-ros2 \
         --network host \
         -v ~/rttf-car-ros2/cardrivers/dev_ws:/home/dev_ws \
-        -v /tmp/.X11-unix:/tmp/.X11-unix \
         --env LD_LIBRARY_PATH=/opt/vc/lib \
         rttf-ros2 bash

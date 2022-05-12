@@ -22,3 +22,4 @@ But it doesn't fully work yet. Camera gives errors but think they're fixable on 
 
 ```colcon build``` produces error related to the custom WheelCmd msg.
 * Solution: ```rm -rf build/ install/ log/``` + ```colcon build```
+* Should not happen anymore, above folders are no longer included in repo and must be built the first time

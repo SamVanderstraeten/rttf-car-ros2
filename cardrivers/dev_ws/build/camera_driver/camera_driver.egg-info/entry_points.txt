@@ -1,3 +1,0 @@
-[console_scripts]
-camera_driver = camera_driver.camera_node:main
-

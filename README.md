@@ -11,14 +11,15 @@
 5. ```./02_attach.sh```
 6. ```./rebuild_ros.sh``` (just to be sure, should done automatically)
 7. ```ros2 run wheels_driver wheels_driver``` (listens for commands and executes commands on car)
-8. ```ros2 run dummy_driver reckless_driver``` (accelerates for 5 seconds & quits)
-9. Wheels should be spinning now. No real way to end it at the moment, pull the power out of the RPi or something ;)
+8. ```ros2 run camera_driver camera_driver``` (starts publishing camera images)
+9. ```ros2 run dummy_driver reckless_driver``` (accelerates for 5 seconds & quits)
+10. Wheels should be spinning now. No real way to end it at the moment, pull the power out of the RPi or something ;)
 
 ### Other 
 
 There's a start for a 'launch all script'
 ```ros2 launch car_drivers all_divers.launch.py```
-But it doesn't fully work yet. Camera gives errors but think they're fixable on RPi.
+Should work now, since camera driver was fixed. Not tested yet.
 
 ### Troubleshooting
 
@@ -44,3 +45,9 @@ The script on the website subscribes to the image topic of the car. (```/camera_
 ### Bugs
 
 Probably
+
+
+
+## docker compose
+
+Should start up all containers. Not yet implemented.

@@ -1,0 +1,14 @@
+{
+    "name": "rttf-dashboard",
+    "version": "0.0.1",
+    "description": "Dashboard for the RTTF car, enabling debugging, monitoring and more!",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "rclnodejs": "0.21.0"
+    },
+    "author": "Sam Vanderstraeten",
+    "license": "ISC"
+  }

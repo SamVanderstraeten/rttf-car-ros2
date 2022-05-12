@@ -1,6 +1,8 @@
 # RTTF cardrivers (ROS2)
 
-## Installation
+## cardrivers container
+
+### Installation
 
 1. Clone repo on RPi
 2. ```cd rttf-car-ros2/cardrivers```
@@ -12,13 +14,30 @@
 8. ```ros2 run dummy_driver reckless_driver``` (accelerates for 5 seconds & quits)
 9. Wheels should be spinning now. No real way to end it at the moment, pull the power out of the RPi or something ;)
 
-## Other 
+### Other 
 
 There's a start for a 'launch all script'
 ```ros2 launch car_drivers all_divers.launch.py```
 But it doesn't fully work yet. Camera gives errors but think they're fixable on RPi.
 
-## Troubleshooting
+### Troubleshooting
 
 ```colcon build``` produces error related to the custom WheelCmd msg.
 * Solution: ```rm -rf build/ install/ log/``` + ```colcon build```
+
+## dashboard container
+
+### Setup
+
+1. Run scripts 00, 01 and 02 to build, run and attach to the container.
+2. Launch the rosbridge node ```roslaunch rosbridge_server rosbridge_websocket.launch```
+3. Launch the Node.js app that serves the dashboard (very basic so far) ```cd /home/app``` and ```npm start```
+4. Visit ```localhost:3000``` and watch it connect (console messages for now)
+
+### Remarks
+
+The script on the website subscribes to the image topic of the car. (```/camera_node/image/compressed```) This was tested with the camera publishing from the ```cardrivers``` container.
+
+### Bugs
+
+Probably

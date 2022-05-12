@@ -4,15 +4,17 @@ import _thread
 import os
 import yaml
 import rclpy
+from rclpy.node import Node
+from rclpy.parameter import Parameter
+
+import cv2
+from cv_bridge import CvBridge
  
-#from edgecar_msgs.msg import BoolStamped
-#from duckietown_msgs.msg import BoolStamped
-#from duckietown_utils import get_duckiefleet_root
 from time import sleep
-from picamera import PiCamera
-from picamera.array import PiRGBArray
 from sensor_msgs.msg import CompressedImage
-from sensor_msgs.srv import SetCameraInfo, SetCameraInfoResponse
+from sensor_msgs.srv import SetCameraInfo
+from std_msgs.msg import Bool
+from sensor_msgs.msg import Image
 from rclpy.utilities import ok
 
 
@@ -29,32 +31,17 @@ class CameraNode(Node):
         self.res_w = self.setupParam("~res_w", 640,Parameter.Type.INTEGER)
         self.res_h = self.setupParam("~res_h", 480, Parameter.Type.INTEGER)
 
-        self.image_msg = CompressedImage()
+        # initialize camera
+        self.cap = cv2.VideoCapture('/dev/video0', cv2.CAP_V4L)
+        self.br = CvBridge()
 
-        # Setup PiCamera
-
-        self.camera = PiCamera()
-        self.framerate = self.framerate_high  # default to high
-        self.camera.framerate = self.framerate
-        self.camera.resolution = (self.res_w, self.res_h)
-
-        cam_config_root='/data/config'
-        self.cali_file_folder = cam_config_root + "/calibrations/camera_intrinsic/"
-
-        self.frame_id = rospy.get_namespace().strip('/') + "/camera_optical_frame"
+        # set dimensions
+        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, self.res_w)
+        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, self.res_h)
 
         self.has_published = False
 
-        self.pub_img = self.create_publisher(CompressedImage, "~image/compressed", 1)
-        self.sub_switch_high = self.create_subscription(BoolStamped,"~framerate_high_switch", self.cbSwitchHigh, 1)
-
-        # Create service (for camera_calibration)
-        self.srv = self.create_service(SetCameraInfo, "~set_camera_info", self.cbSrvSetCameraInfo)
-
-        self.stream = io.BytesIO()
-
-        #self.camera.exposure_mode = 'off'
-        # self.camera.awb_mode = 'off'
+        self.pub_img = self.create_publisher(Image, "~/image/compressed", 1)
 
         self.is_shutdown = False
         self.update_framerate = False
@@ -71,53 +58,35 @@ class CameraNode(Node):
             self.update_framerate = True
 
     def startCapturing(self):
-        self.get_logger().info("[%s] Start capturing" % (self.node_name))
+        self.get_logger().info("[%s] Start publishing frames." % (self.node_name))
         while not self.is_shutdown and rclpy.ok():
-            gen = self.grabAndPublish(self.stream, self.pub_img)
-            try:
-                self.camera.capture_sequence(gen, 'jpeg', use_video_port=True, splitter_port=0)
-            except StopIteration:
-                pass
-            # print "updating framerate"
-            self.camera.framerate = self.framerate
-            self.update_framerate = False
+            self.grabAndPublish()
 
         self.camera.close()
-        self.get_logger().info("[%s] Capture Ended." % (self.node_name))
+        self.get_logger().info("[%s] Stopped publishing." % (self.node_name))
 
-    def grabAndPublish(self, stream, publisher):
-        while not self.update_framerate and not self.is_shutdown and rclpy.ok():
-            yield stream
-            # Construct image_msg
-            # Grab image from stream
-            #stamp = rospy.Time.now()
-            stamp = self.get_clock().now()
-            stream.seek(0)
-            stream_data = stream.getvalue()
-            # Generate compressed image
-            image_msg = CompressedImage()
-            image_msg.format = "jpeg"
-            image_msg.data = stream_data
-
-            image_msg.header.stamp = stamp
-            image_msg.header.frame_id = self.frame_id
-            publisher.publish(image_msg)
-
-            # Clear stream
-            stream.seek(0)
-            stream.truncate()
-
+    def grabAndPublish(self):
+        while not self.is_shutdown and rclpy.ok():
+            ret, frame = self.cap.read()
+            if ret:
+                tr = self.br.cv2_to_imgmsg(frame, "bgr8")
+                self.pub_img.publish(tr)
+            else:
+                self.get_logger().info("[%s] Error capturing frame." % (self.node_name))
+  
             if not self.has_published:
                 self.get_logger().info("[%s] Published the first image." % (self.node_name))
                 self.has_published = True
-
-            #rospy.sleep(rospy.Duration.from_sec(0.001))
             sleep(0.001)
 
     def setupParam(self, param_name, default_value, param_type):
         value = self.get_parameter_or(param_name, default_value)
         param = Parameter(param_name, param_type, value)
-        self.set_parameters([param])
+        try:
+            self.declare_parameter(param_name)
+            self.set_parameters([param])
+        except e:
+            self.get_logger().warning("[%s] Failed setting parameter %s" % (self.node_name, param_name))
 
         self.get_logger().info("SET PARAM [%s] %s = %s " %(self.node_name,param_name,value))
         return value
@@ -127,45 +96,12 @@ class CameraNode(Node):
         self.is_shutdown = True
         self.get_logger().info("[%s] Shutdown." % (self.node_name))
 
-    def cbSrvSetCameraInfo(self, req):
-        # TODO: save req.camera_info to yaml file
-        self.get_logger().info("[cbSrvSetCameraInfo] Callback!")
-        filename = self.cali_file_folder + rospy.get_namespace().strip("/") + ".yaml"
-        response = SetCameraInfoResponse()
-        response.success = self.saveCameraInfo(req.camera_info, filename)
-        response.status_message = "Write to %s" % filename  #TODO file name
-        return response
-
-    def saveCameraInfo(self, camera_info_msg, filename):
-        # Convert camera_info_msg and save to a yaml file
-        self.get_logger().info("[saveCameraInfo] filename: %s" % (filename))
-
-        # Converted from camera_info_manager.py
-        calib = {'image_width': camera_info_msg.width,
-        'image_height': camera_info_msg.height,
-        'camera_name': rospy.get_name().strip("/"),  #TODO check this
-        'distortion_model': camera_info_msg.distortion_model,
-        'distortion_coefficients': {'data': camera_info_msg.D, 'rows':1, 'cols':5},
-        'camera_matrix': {'data': camera_info_msg.K, 'rows':3, 'cols':3},
-        'rectification_matrix': {'data': camera_info_msg.R, 'rows':3, 'cols':3},
-        'projection_matrix': {'data': camera_info_msg.P, 'rows':3, 'cols':4}}
-
-        self.get_logger().info("[saveCameraInfo] calib %s" % (calib))
-
-        try:
-            f = open(filename, 'w')
-            yaml.safe_dump(calib, f)
-            return True
-        except IOError:
-            return False
-
-
-if __name__ == '__main__':
+def main(args=None):
     rclpy.init(args=args)
 
     camera_node = CameraNode()
 
-    thread.start_new_thread(camera_node.startCapturing, ())
+    _thread.start_new_thread(camera_node.startCapturing, ())
     rclpy.spin(camera_node)
 
     # Destroy the node explicitly
@@ -173,3 +109,6 @@ if __name__ == '__main__':
     # when the garbage collector destroys the node object)
     camera_node.destroy_node()
     rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

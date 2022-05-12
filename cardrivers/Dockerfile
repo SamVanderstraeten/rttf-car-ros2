@@ -11,8 +11,8 @@ RUN apt-get update && apt-get install -y \
         python3-pip \
         python3-smbus \
         libffi-dev \
-        libssl-dev 
-#       python3-opencv \
+        libssl-dev \
+        python3-opencv 
 #       qt5-default
 
 ENV READTHEDOCS=True

@@ -41,7 +41,7 @@ class CameraNode(Node):
 
         self.has_published = False
 
-        self.pub_img = self.create_publisher(Image, "~/image/compressed", 1)
+        self.pub_img = self.create_publisher(CompressedImage, "~/image/compressed", 1)
 
         self.is_shutdown = False
         self.update_framerate = False
@@ -69,7 +69,7 @@ class CameraNode(Node):
         while not self.is_shutdown and rclpy.ok():
             ret, frame = self.cap.read()
             if ret:
-                tr = self.br.cv2_to_imgmsg(frame, "bgr8")
+                tr = self.br.cv2_to_compressed_imgmsg(frame)
                 self.pub_img.publish(tr)
             else:
                 self.get_logger().info("[%s] Error capturing frame." % (self.node_name))

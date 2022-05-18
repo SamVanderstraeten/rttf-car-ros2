@@ -18,7 +18,7 @@
 ### Other 
 
 There's a start for a 'launch all script'
-```ros2 launch car_drivers all_divers.launch.py```
+```ros2 launch car_drivers all_drivers.launch.py```
 Should work now, since camera driver was fixed. Not tested yet.
 
 ### Troubleshooting
@@ -50,4 +50,4 @@ Probably
 
 ## docker compose
 
-Should start up all containers. Not yet implemented.
+Starts up everything at once.

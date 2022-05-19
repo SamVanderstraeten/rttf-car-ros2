@@ -6,5 +6,16 @@ services:
       context: cardrivers
       dockerfile: Dockerfile
     network_mode: "host"
+    volumes:
+      - "~/rttf-car-ros2/cardrivers/dev_ws:/home/dev_ws"
+    environment:
+      - LD_LIBRARY_PATH=/opt/vc/lib
     privileged: true
     restart: "always"
+    command: >
+      bash -c "
+      cd /home/dev_ws/ &&
+      colcon build &&
+      source install/local_setup.bash &&
+      ros2 launch car_drivers all_drivers.launch.py
+      "

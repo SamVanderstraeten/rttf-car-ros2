@@ -4,16 +4,16 @@
 
 ### Installation
 
+0. Install 64-bit version of Raspberry Pi OS
 1. Clone repo on RPi
 2. ```cd rttf-car-ros2/cardrivers```
 3. ```./00_build.sh```
 4. ```./01_run.sh``` or ```docker start rttf-cardrivers-ros2``` (depending if it already exists)
 5. ```./02_attach.sh```
 6. ```./rebuild_ros.sh``` (just to be sure, should done automatically)
-7. ```ros2 run wheels_driver wheels_driver``` (listens for commands and executes commands on car)
-8. ```ros2 run camera_driver camera_driver``` (starts publishing camera images)
-9. ```ros2 run dummy_driver reckless_driver``` (accelerates for 5 seconds & quits)
-10. Wheels should be spinning now. No real way to end it at the moment, pull the power out of the RPi or something ;)
+7. (optional) ```ros2 run wheels_driver wheels_driver``` or in the `/home/scripts` execute `./wheels_driver.sh` (listens for commands and executes commands on car)
+8. (optional) ```ros2 run camera_driver camera_driver``` or in the `/home/scripts` execute `./camera_driver.sh` (starts publishing camera images)
+9. (optional) ```ros2 run dummy_driver reckless_driver``` or in the `/home/scripts` execute `./dummy_driver.sh` (accelerates for 5 seconds & quits)
 
 ### Other 
 
@@ -34,9 +34,9 @@ Should work now, since camera driver was fixed. Not tested yet.
 ### Setup
 
 1. Run scripts 00, 01 and 02 to build, run and attach to the container.
-2. Launch the rosbridge node ```roslaunch rosbridge_server rosbridge_websocket.launch```
+2. Launch the rosbridge node ```ros2 launch rosbridge_server rosbridge_websocket_launch.xml```
 3. Launch the Node.js app that serves the dashboard (very basic so far) ```cd /home/app``` and ```npm start```
-4. Visit ```localhost:3000``` and watch it connect (console messages for now)
+4. Visit ```localhost:3000``` and watch it connect (console messages for now). Replace `localhost` with the proper IP address when connecting from other device in the same network.
 
 ### Remarks
 
